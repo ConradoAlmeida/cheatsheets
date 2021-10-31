@@ -4,10 +4,12 @@ layout: default
 <small>{{ page.date | date: "%-d %B %Y" }}</small>
 <h1>{{ page.title }}</h1>
 
+{% assign net = site.data.store-data | group_by:"categoria" %}
 
-{% regroup site.data.store-data.comandos by site.data.store-data.categoria as comandos_list %}
-{% for comandos in comandos_list %}
-{{ comandos.grouper  }}
+
+
+{% for cat in net %}
+{{cat}}
 
 {% endfor %}
 
