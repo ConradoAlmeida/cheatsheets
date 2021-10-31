@@ -5,9 +5,6 @@ layout: default
 <small>{{ page.date | date: "%-d %B %Y" }}</small>
 <h1>{{ page.title }}</h1>
 
-{% for categorias in site.data.store-data.categoria %}
-{{ categorias }}
-{% endfor %}
 
 {% for member in site.data.store-data %}
 <table class="table table-striped table-sm">
