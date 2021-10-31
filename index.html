@@ -7,7 +7,7 @@ layout: default
 
 {% regroup site.data.store-data.comandos by site.data.store-data.categoria as comandos_list %}
 {% for comandos in comandos_list %}
-{{ comandos }}
+{{ comandos.grouper  }}
 
 {% endfor %}
 
