@@ -5,15 +5,27 @@ layout: default
 <small>{{ page.date | date: "%-d %B %Y" }}</small>
 <h1>{{ page.title }}</h1>
 
-<ul>
+
 {% for member in site.data.store-data %}
-  <li>
-    <a href="https://github.com/{{ member.github }}">
-      {{ member.comandos }}
-    </a>
-  </li>
+<table class="table table-striped table-sm">
+        <thead>
+          <tr>
+            <th class="h5 text-primary text-uppercase"  scope="col" colspan="2" >{{ member.descricao }}</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" style="width: 40%">{{ member.comandos }}</th>
+            <td>From scratch --Create a new local repository</td>
+          </tr>
+    
+        </tbody>
+      </table>
+
+    
+
 {% endfor %}
-</ul>
+
 
 {% if page.tags %}
   <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
