@@ -7,7 +7,15 @@ layout: default
 
 <p class="view">by {{ page.author | default: site.author }}</p>
 
-{{ content }}
+<ul>
+{% for member in site.data.members %}
+  <li>
+    <a href="https://github.com/{{ member.github }}">
+      {{ member.name }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
 
 {% if page.tags %}
   <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
