@@ -7,16 +7,19 @@ layout: default
 
 
 {% for member in site.data.store-data %}
-{% for cat in member.categoria %}
-{% if forloop.first %}
-**** {{ cat }} ****
-{% endif %}
-{% endfor %}
+
+
+
+
+
 <table class="table table-striped table-sm">
         <thead>
+                   {% if forloop.first %}
           <tr>
+               
             <th class="h5 text-primary text-uppercase"  scope="col" colspan="2" >{{ member.categoria }}</th>
           </tr>
+                {% endif %}
         </thead>
         <tbody>
           <tr>
