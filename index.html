@@ -8,7 +8,9 @@ layout: default
 
 {% for member in site.data.store-data %}
 {% for cat in member.categoria %}
-{{ cat }}
+{% if forloop.first %}
+**** {{ cat }} ****
+{% endif %}
 {% endfor %}
 <table class="table table-striped table-sm">
         <thead>
