@@ -1,5 +1,4 @@
 title: Cheat Sheets
 show_downloads: true
 google_analytics:
-
-remote_theme: chrisrhymes/bulma-clean-theme
+theme: bulma-clean-theme
