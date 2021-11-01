@@ -28,7 +28,7 @@
       <nav class="nav d-flex justify-content-between">
         {% assign grupos = site.data.store-data | group_by:"grupo" %}
         {% for grupo in grupos %}
-        <a class="p-2 link-secondary" href="#">{{grupo.name}}</a>
+        <a class="p-2 link-secondary" href="git-sheet.html">{{grupo.name}}</a>
         
         {% endfor %}
 
