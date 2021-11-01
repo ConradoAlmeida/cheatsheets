@@ -29,9 +29,9 @@ layout: default
       <th class="h5 text-secondary text-uppercase"  scope="col" colspan="2" >{{ dado.name }}</th>
       </tr>
     </thead>
-
-{% for item in dado.items %}
 <p>{{ dado.name }}</p>
+{% for item in dado.items %}
+
  <tr>
   <th scope="row" style="width: 40%">{{ item.comandos }}</th>
   <td>{{ item.descricao }}</td>
