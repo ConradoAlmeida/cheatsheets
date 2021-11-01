@@ -99,13 +99,13 @@ Shift+F12, Show References,Rich languages editing,grade2,Visual Studio Code for 
 F2, Rename Symbol,Rich languages editing,grade2,Visual Studio Code for Windows
 Ctrl+K Ctrl+X, Trim trailing whitespace,Rich languages editing,grade2,Visual Studio Code for Windows
 Ctrl+K M, Change file language,Rich languages editing,grade2,Visual Studio Code for Windows
-"Ctrl+F4, Ctrl+W", Close editor,EDITOR MANAGEMENT,grade2,Visual Studio Code for Windows
-Ctrl+K F, Close folder,EDITOR MANAGEMENT,grade2,Visual Studio Code for Windows
-Ctrl+\, Split editor,EDITOR MANAGEMENT,grade2,Visual Studio Code for Windows
-Ctrl+ 1 / 2 / 3," Focus into 1st,2nd or 3rd editor group",EDITOR MANAGEMENT,grade2,Visual Studio Code for Windows
-Ctrl+K Ctrl+ ?/?, Focus into previous/next editor group,EDITOR MANAGEMENT,grade2,Visual Studio Code for Windows
-Ctrl+Shift+PgUp / PgDn, Move editor left/right,EDITOR MANAGEMENT,grade2,Visual Studio Code for Windows
-Ctrl+K ? / ?, Move active editor group,EDITOR MANAGEMENT,grade2,Visual Studio Code for Windows
+"Ctrl+F4, Ctrl+W", Close editor,EDITOR MANAGEMENT,grade3,Visual Studio Code for Windows
+Ctrl+K F, Close folder,EDITOR MANAGEMENT,grade3,Visual Studio Code for Windows
+Ctrl+\, Split editor,EDITOR MANAGEMENT,grade3,Visual Studio Code for Windows
+Ctrl+ 1 / 2 / 3," Focus into 1st,2nd or 3rd editor group",EDITOR MANAGEMENT,grade3,Visual Studio Code for Windows
+Ctrl+K Ctrl+ ?/?, Focus into previous/next editor group,EDITOR MANAGEMENT,grade3,Visual Studio Code for Windows
+Ctrl+Shift+PgUp / PgDn, Move editor left/right,EDITOR MANAGEMENT,grade3,Visual Studio Code for Windows
+Ctrl+K ? / ?, Move active editor group,EDITOR MANAGEMENT,grade3,Visual Studio Code for Windows
 Ctrl+N, New File,FILE MANAGEMENT,grade3,Visual Studio Code for Windows
 Ctrl+O, Open File...,FILE MANAGEMENT,grade3,Visual Studio Code for Windows
 Ctrl+S, Save,FILE MANAGEMENT,grade3,Visual Studio Code for Windows
