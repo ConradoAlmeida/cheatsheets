@@ -5,13 +5,14 @@ layout: default
 {% assign grupos = site.data.store-data | group_by:"grupo" %}
 {% for grupo in grupos %}
 {% if grupo.name == "Git/GitHub" %}
+{% assign net = site.data.store-data | group_by:"categoria" %}
 <h1>{{ grupo.name }}</h1>
 {% endif %}
 {% endfor %}
 
 
 
-{% assign net = site.data.store-data | group_by:"categoria" %}
+
 
 
     
