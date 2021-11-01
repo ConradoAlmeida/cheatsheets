@@ -11,7 +11,7 @@ layout: default
 {% assign dados2 = dados | group_by:"categoria" %} 
 
 
-{% for dado in dados2 | group_by:"categoria" %}
+{% for dado in dados2 %}
 
 
 <div class="col-md-4">
@@ -28,24 +28,11 @@ layout: default
           </tr>
                
         </thead>
-        <tbody>
-              
- {% for item in dado.items  %}
-            
-          <tr>
-            <th scope="row" style="width: 40%">{{ item.comandos }}</th>
-            <td>{{ item.descricao }}</td>
-          </tr>
-
-{% endfor %}
-              {% endif %}
-{% endfor %}
-                 </tbody>
-             </table>
+        </table>
         </article>
            </div>
 
-
+{% endfor %}
 
 
 
