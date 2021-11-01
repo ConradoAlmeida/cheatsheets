@@ -2,8 +2,10 @@
 layout: default
 ---
 
-
-<h1>{{ site.title }}</h1>
+{% assign grupos = site.data.store-data | group_by:"grupo" %}
+{% for grupo in grupos %}
+<h1>{{ grupo.name }}</h1>
+{% endfor %}
 
 {% assign net = site.data.store-data | group_by:"categoria" %}
 
