@@ -12,10 +12,38 @@ layout: default
 
 
 {% for dado in dados2 | group_by:"categoria" %}
----
-{{dado.name}}
----
+
+
+<div class="col-md-4">
+      <article class="blog-post">
+     
+  
+
+<table class="table table-striped table-sm">
+       <thead>
+                 
+          <tr>
+               
+            <th class="h5 text-secondary text-uppercase"  scope="col" colspan="2" >{{ cat.name }}</th>
+          </tr>
+               
+        </thead>
+        <tbody>
+              
+ {% for item in dados.items  %}
+            
+          <tr>
+            <th scope="row" style="width: 40%">{{ itens.comandos }}</th>
+            <td>{{ itens.descricao }}</td>
+          </tr>
+
 {% endfor %}
+              {% endif %}
+{% endfor %}
+                 </tbody>
+             </table>
+        </article>
+           </div>
 
 
 
