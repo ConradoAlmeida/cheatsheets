@@ -15,8 +15,8 @@ layout: default
 
 {% assign dados = site.data.store-data | where:"grupo","Visual Studio Code for Windows" %}
 
-{% assign dados2 = dados | group_by:"categoria" %} 
-
+{% comment %} {% assign dados2 = dados | group_by:"categoria" %} {% endcomment %}
+{% assign dados2 = dados | group_by:"grade" %}
 
 {% for dado in dados2 %}
 
