@@ -5,10 +5,6 @@ layout: default
 
 
 
-{% assign dados = site.data.store-data | where:"grupo","Git/GitHub" %}
-
-{% assign dados2 = dados | group_by:"categoria" %} 
-
 <div class="col-md-12">
  <article class="blog-post">
           <h2 class="blog-post-title">Git/GitHub</h2>
@@ -18,14 +14,14 @@ layout: default
         <hr>
  </article>
 </div>
+
+{% assign dados = site.data.store-data | where:"grupo","Git/GitHub" %}
+{% assign dados2 = dados | group_by:"categoria" %} 
+
 <div class="col-md-4">
  <article class="blog-post">
 
-  
   {% for dado in dados2 %}
-
-
-
 
   <table class="table table-striped table-sm">
     <thead>
@@ -40,10 +36,11 @@ layout: default
   <td>{{ item.descricao }}</td>
  </tr>
 {% endfor %}
-</table>
+
 
 
 {% endfor %}
+   </table>
    </article>
  </div>
 
