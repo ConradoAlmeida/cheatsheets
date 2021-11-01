@@ -13,7 +13,7 @@ layout: default
 
 {% for dado in dados2 | group_by:"categoria" %}
 ---
-{{dado}}
+{{dado.name}}
 ---
 {% endfor %}
 
