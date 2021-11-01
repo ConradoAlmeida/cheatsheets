@@ -16,7 +16,7 @@ layout: default
 
     
 {% for cat in net %}
-{% if cat.grupo == "Git/GitHub" %}
+
 
 <div class="col-md-4">
       <article class="blog-post">
@@ -35,6 +35,7 @@ layout: default
         <tbody>
                 
 {% for itens in cat.items %}
+            {% if itens.grupo == "Git/GitHub" %}
                 
               <tr>
             <th scope="row" style="width: 40%">{{ itens.comandos }}</th>
@@ -42,7 +43,7 @@ layout: default
           </tr>
     
       
-
+{% endif %}
 {% endfor %}
                  </tbody>
              </table>
@@ -55,7 +56,7 @@ layout: default
 
 
 
-{% endif %}
+
 {% endfor %}
  
 <br>
