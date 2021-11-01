@@ -18,10 +18,11 @@ layout: default
 {% assign dados = site.data.store-data | where:"grupo","Git/GitHub" %}
 {% assign dados2 = dados | group_by:"categoria" %} 
 
-<div class="col-md-4">
- <article class="blog-post">
+
 
   {% for dado in dados2 %}
+<div class="col-md-4">
+ <article class="blog-post">
 
   <table class="table table-striped table-sm">
     <thead>
