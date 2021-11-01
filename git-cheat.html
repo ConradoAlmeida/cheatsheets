@@ -5,7 +5,7 @@ layout: default
 {% assign grupos = site.data.store-data | group_by:"grupo" %}
 {% for grupo in grupos %}
 {% if grupo.name == "Git/GitHub" %}
-{% assign net = site.data.store-data | group_by:"categoria" %}
+
 <h1>{{ grupo.name }}</h1>
 {% endif %}
 {% endfor %}
@@ -15,8 +15,10 @@ layout: default
 
 
 
-    
+{% assign net = site.data.store-data | group_by:"categoria" %} 
 {% for cat in net %}
+{% for itens in cat.items %}
+{% if itens.grupo == "Git/GitHub" %}
 
 
 <div class="col-md-4">
@@ -34,7 +36,8 @@ layout: default
                
         </thead>
         <tbody>
-                
+{% endif %}
+{% endfor %} 
 {% for itens in cat.items %}
             {% if itens.grupo == "Git/GitHub" %}
                 
