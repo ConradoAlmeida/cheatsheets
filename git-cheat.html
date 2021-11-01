@@ -10,12 +10,11 @@ layout: default
 {% endif %}
 {% endfor %}
 
-conrado
-{{ site.data.store-data | where:"grupo","Git/GitHub" }}
-conrado
+
 
 {% assign dados = site.data.store-data | where:"grupo","Git/GitHub" %}
 {% for dado in dados %}
+{{dado.comandos}}
 {{dado.descricao}}
 {% endfor %}
 
