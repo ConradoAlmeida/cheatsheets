@@ -9,7 +9,7 @@ layout: default
 {% assign dados = site.data.store-data | where:"grupo","Visual Studio Code for Windows" %}
 
 
-{% for dado in dados | group_by:"categoria %}
+{% for dado in dados | group_by:"categoria" %}
 ---
 {{dado.name}}
 ---
