@@ -10,11 +10,10 @@ layout: default
 {% endif %}
 {% endfor %}
 
+conrado
+{{ site.data.store-data | where:"grupo","Git/GitHub" }}
+conrado
 
-{% assign teste = site.data.store-data | group_by:"categoria","grupo" %}
-{% for testes in teste %}
-{{ testes.name }}
-{% endfor %}
 
 
 
