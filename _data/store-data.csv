@@ -58,15 +58,15 @@ Ctrl+K Ctrl+U, Remove line comment,BASIC EDITING,grade1,Visual Studio Code for W
 Ctrl+/, Toggle line comment,BASIC EDITING,grade1,Visual Studio Code for Windows
 Shift+Alt+A, Toggle block comment,BASIC EDITING,grade1,Visual Studio Code for Windows
 Alt+Z, Toggle word wrap,BASIC EDITING,grade1,Visual Studio Code for Windows
-Ctrl+T, Show all Symbols,NAVIGATION,grade2,Visual Studio Code for Windows
-Ctrl+G, Go to Line...,NAVIGATION,grade2,Visual Studio Code for Windows
-Ctrl+P, Go to File...,NAVIGATION,grade2,Visual Studio Code for Windows
-Ctrl+Shift+O, Go to Symbol...,NAVIGATION,grade2,Visual Studio Code for Windows
-Ctrl+Shift+M, Show Problems panel,NAVIGATION,grade2,Visual Studio Code for Windows
-F8, Go to next error or warning,NAVIGATION,grade2,Visual Studio Code for Windows
-Shift+F8, Go to previous error or warning,NAVIGATION,grade2,Visual Studio Code for Windows
-Ctrl+Shift+Tab, Navigate editor group history,NAVIGATION,grade2,Visual Studio Code for Windows
-Alt+ ? / ?, Go back / forward,NAVIGATION,grade2,Visual Studio Code for Windows
+Ctrl+T, Show all Symbols,NAVIGATION,grade1,Visual Studio Code for Windows
+Ctrl+G, Go to Line...,NAVIGATION,grade1,Visual Studio Code for Windows
+Ctrl+P, Go to File...,NAVIGATION,grade1,Visual Studio Code for Windows
+Ctrl+Shift+O, Go to Symbol...,NAVIGATION,grade1,Visual Studio Code for Windows
+Ctrl+Shift+M, Show Problems panel,NAVIGATION,grade1,Visual Studio Code for Windows
+F8, Go to next error or warning,NAVIGATION,grade1,Visual Studio Code for Windows
+Shift+F8, Go to previous error or warning,NAVIGATION,grade1,Visual Studio Code for Windows
+Ctrl+Shift+Tab, Navigate editor group history,NAVIGATION,grade1,Visual Studio Code for Windows
+Alt+ ? / ?, Go back / forward,NAVIGATION,grade1,Visual Studio Code for Windows
 Ctrl+M, Toggle Tab moves focus,NAVIGATION,grade2,Visual Studio Code for Windows
 Ctrl+F, Find,SEARCH AND REPLACE,grade2,Visual Studio Code for Windows
 Ctrl+H, Replace,SEARCH AND REPLACE,grade2,Visual Studio Code for Windows
@@ -88,25 +88,25 @@ Shift+Alt +(drag mouse),Column (box) selection,Multi-cursor and selection,grade2
 Ctrl+Shift+Alt + (arrow key),Column (box) selection,Multi-cursor and selection,grade2,Visual Studio Code for Windows
 Ctrl+Shift+Alt+PgUp/PgDn,Column (box) selection page up/down,Multi-cursor and selection,grade2,Visual Studio Code for Windows
 "Ctrl+Space,Ctrl+I", Trigger suggestion,Rich languages editing,grade2,Visual Studio Code for Windows
-Ctrl+Shift+Space, Trigger parameter hints,Rich languages editing,grade3,Visual Studio Code for Windows
-Shift+Alt+F, Format document,Rich languages editing,grade3,Visual Studio Code for Windows
-Ctrl+K Ctrl+F, Format selection,Rich languages editing,grade3,Visual Studio Code for Windows
-F12, Go to Definition,Rich languages editing,grade3,Visual Studio Code for Windows
-Alt+F12, Peek Definition,Rich languages editing,grade3,Visual Studio Code for Windows
-Ctrl+K F12, Open Definition to the side,Rich languages editing,grade3,Visual Studio Code for Windows
-Ctrl+., Quick Fix,Rich languages editing,grade3,Visual Studio Code for Windows
-Shift+F12, Show References,Rich languages editing,grade3,Visual Studio Code for Windows
-F2, Rename Symbol,Rich languages editing,grade3,Visual Studio Code for Windows
-Ctrl+K Ctrl+X, Trim trailing whitespace,Rich languages editing,grade3,Visual Studio Code for Windows
-Ctrl+K M, Change file language,Rich languages editing,grade3,Visual Studio Code for Windows
-"Ctrl+F4, Ctrl+W", Close editor,EDITOR MANAGEMENT,grade3,Visual Studio Code for Windows
-Ctrl+K F, Close folder,EDITOR MANAGEMENT,grade3,Visual Studio Code for Windows
-Ctrl+\, Split editor,EDITOR MANAGEMENT,grade3,Visual Studio Code for Windows
-Ctrl+ 1 / 2 / 3," Focus into 1st,2nd or 3rd editor group",EDITOR MANAGEMENT,grade3,Visual Studio Code for Windows
-Ctrl+K Ctrl+ ?/?, Focus into previous/next editor group,EDITOR MANAGEMENT,grade3,Visual Studio Code for Windows
-Ctrl+Shift+PgUp / PgDn, Move editor left/right,EDITOR MANAGEMENT,grade3,Visual Studio Code for Windows
-Ctrl+K ? / ?, Move active editor group,EDITOR MANAGEMENT,grade3,Visual Studio Code for Windows
-Ctrl+N, New File,FILE MANAGEMENT,grade3,Visual Studio Code for Windows
+Ctrl+Shift+Space, Trigger parameter hints,Rich languages editing,grade2,Visual Studio Code for Windows
+Shift+Alt+F, Format document,Rich languages editing,grade2,Visual Studio Code for Windows
+Ctrl+K Ctrl+F, Format selection,Rich languages editing,grade2,Visual Studio Code for Windows
+F12, Go to Definition,Rich languages editing,grade2,Visual Studio Code for Windows
+Alt+F12, Peek Definition,Rich languages editing,grade2,Visual Studio Code for Windows
+Ctrl+K F12, Open Definition to the side,Rich languages editing,grade2,Visual Studio Code for Windows
+Ctrl+., Quick Fix,Rich languages editing,grade2,Visual Studio Code for Windows
+Shift+F12, Show References,Rich languages editing,grade2,Visual Studio Code for Windows
+F2, Rename Symbol,Rich languages editing,grade2,Visual Studio Code for Windows
+Ctrl+K Ctrl+X, Trim trailing whitespace,Rich languages editing,grade2,Visual Studio Code for Windows
+Ctrl+K M, Change file language,Rich languages editing,grade2,Visual Studio Code for Windows
+"Ctrl+F4, Ctrl+W", Close editor,EDITOR MANAGEMENT,grade2,Visual Studio Code for Windows
+Ctrl+K F, Close folder,EDITOR MANAGEMENT,grade2,Visual Studio Code for Windows
+Ctrl+\, Split editor,EDITOR MANAGEMENT,grade2,Visual Studio Code for Windows
+Ctrl+ 1 / 2 / 3," Focus into 1st,2nd or 3rd editor group",EDITOR MANAGEMENT,grade2,Visual Studio Code for Windows
+Ctrl+K Ctrl+ ?/?, Focus into previous/next editor group,EDITOR MANAGEMENT,grade2,Visual Studio Code for Windows
+Ctrl+Shift+PgUp / PgDn, Move editor left/right,EDITOR MANAGEMENT,grade2,Visual Studio Code for Windows
+Ctrl+K ? / ?, Move active editor group,EDITOR MANAGEMENT,grade2,Visual Studio Code for Windows
+Ctrl+N, New File,FILE MANAGEMENT,grade2,Visual Studio Code for Windows
 Ctrl+O, Open File...,FILE MANAGEMENT,grade3,Visual Studio Code for Windows
 Ctrl+S, Save,FILE MANAGEMENT,grade3,Visual Studio Code for Windows
 Ctrl+Shift+S, Save As...,FILE MANAGEMENT,grade3,Visual Studio Code for Windows
@@ -118,33 +118,33 @@ Ctrl+K Enter ,Keep preview mode editor open,FILE MANAGEMENT,grade3,Visual Studio
 Ctrl+Tab ,Open next,FILE MANAGEMENT,grade3,Visual Studio Code for Windows
 Ctrl+Shift+Tab, Open previous,FILE MANAGEMENT,grade3,Visual Studio Code for Windows
 Ctrl+K P ,Copy path of active file,FILE MANAGEMENT,grade3,Visual Studio Code for Windows
-Ctrl+K R ,Reveal active file in Explorer,FILE MANAGEMENT,grade4,Visual Studio Code for Windows
-Ctrl+K O ,Show active file in new window/instance,FILE MANAGEMENT,grade4,Visual Studio Code for Windows
-F11 ,Toggle full screen,DISPLAY,grade4,Visual Studio Code for Windows
-Shift+Alt+0 ,Toggle editor layout (horizontal/vertical),DISPLAY,grade4,Visual Studio Code for Windows
-Ctrl+ = / - ,Zoom in/out,DISPLAY,grade4,Visual Studio Code for Windows
-Ctrl+B Toggle, Sidebar visibility,DISPLAY,grade4,Visual Studio Code for Windows
-Ctrl+Shift+E ,Show Explorer / Toggle focus,DISPLAY,grade4,Visual Studio Code for Windows
-Ctrl+Shift+F ,Show Search,DISPLAY,grade4,Visual Studio Code for Windows
-Ctrl+Shift+G ,Show Source Control,DISPLAY,grade4,Visual Studio Code for Windows
-Ctrl+Shift+D ,Show Debug,DISPLAY,grade4,Visual Studio Code for Windows
-Ctrl+Shift+X ,Show Extensions,DISPLAY,grade4,Visual Studio Code for Windows
-Ctrl+Shift+H ,Replace in files,DISPLAY,grade4,Visual Studio Code for Windows
-Ctrl+Shift+J ,Toggle Search details,DISPLAY,grade4,Visual Studio Code for Windows
-Ctrl+Shift+U ,Show Output panel,DISPLAY,grade4,Visual Studio Code for Windows
-Ctrl+Shift+V ,Open Markdown preview,DISPLAY,grade4,Visual Studio Code for Windows
-Ctrl+K V ,Open Markdown preview to the side,DISPLAY,grade4,Visual Studio Code for Windows
-Ctrl+K Z ,Zen Mode (Esc Esc to exit),DISPLAY,grade4,Visual Studio Code for Windows
-F9, Toggle breakpoint,DEBUG,grade4,Visual Studio Code for Windows
-F5, Start/Continue,DEBUG,grade4,Visual Studio Code for Windows
-Shift+F5, Stop,DEBUG,grade4,Visual Studio Code for Windows
-F11 / Shift+F11, Step into/out,DEBUG,grade4,Visual Studio Code for Windows
-F10, Step over,DEBUG,grade4,Visual Studio Code for Windows
-Ctrl+K Ctrl+I, Show hover,DEBUG,grade4,Visual Studio Code for Windows
-Ctrl+`, Show integrated terminal,INTEGRATED TERMINAL,grade4,Visual Studio Code for Windows
-Ctrl+Shift+`, Create new terminal,INTEGRATED TERMINAL,grade4,Visual Studio Code for Windows
-Ctrl+C, Copy selection,INTEGRATED TERMINAL,grade4,Visual Studio Code for Windows
-Ctrl+V, Paste into active terminal,INTEGRATED TERMINAL,grade4,Visual Studio Code for Windows
-Ctrl+? / ?, Scroll up/down,INTEGRATED TERMINAL,grade4,Visual Studio Code for Windows
-Shift+PgUp / PgDn, Scroll page up/down,INTEGRATED TERMINAL,grade4,Visual Studio Code for Windows
-Ctrl+Home / End, Scroll to top/bottom,INTEGRATED TERMINAL,grade4,Visual Studio Code for Windows
+Ctrl+K R ,Reveal active file in Explorer,FILE MANAGEMENT,grade3,Visual Studio Code for Windows
+Ctrl+K O ,Show active file in new window/instance,FILE MANAGEMENT,grade3,Visual Studio Code for Windows
+F11 ,Toggle full screen,DISPLAY,grade3,Visual Studio Code for Windows
+Shift+Alt+0 ,Toggle editor layout (horizontal/vertical),DISPLAY,grade3,Visual Studio Code for Windows
+Ctrl+ = / - ,Zoom in/out,DISPLAY,grade3,Visual Studio Code for Windows
+Ctrl+B Toggle, Sidebar visibility,DISPLAY,grade3,Visual Studio Code for Windows
+Ctrl+Shift+E ,Show Explorer / Toggle focus,DISPLAY,grade3,Visual Studio Code for Windows
+Ctrl+Shift+F ,Show Search,DISPLAY,grade3,Visual Studio Code for Windows
+Ctrl+Shift+G ,Show Source Control,DISPLAY,grade3,Visual Studio Code for Windows
+Ctrl+Shift+D ,Show Debug,DISPLAY,grade3,Visual Studio Code for Windows
+Ctrl+Shift+X ,Show Extensions,DISPLAY,grade3,Visual Studio Code for Windows
+Ctrl+Shift+H ,Replace in files,DISPLAY,grade3,Visual Studio Code for Windows
+Ctrl+Shift+J ,Toggle Search details,DISPLAY,grade3,Visual Studio Code for Windows
+Ctrl+Shift+U ,Show Output panel,DISPLAY,grade3,Visual Studio Code for Windows
+Ctrl+Shift+V ,Open Markdown preview,DISPLAY,grade3,Visual Studio Code for Windows
+Ctrl+K V ,Open Markdown preview to the side,DISPLAY,grade3,Visual Studio Code for Windows
+Ctrl+K Z ,Zen Mode (Esc Esc to exit),DISPLAY,grade3,Visual Studio Code for Windows
+F9, Toggle breakpoint,DEBUG,grade3,Visual Studio Code for Windows
+F5, Start/Continue,DEBUG,grade3,Visual Studio Code for Windows
+Shift+F5, Stop,DEBUG,grade3,Visual Studio Code for Windows
+F11 / Shift+F11, Step into/out,DEBUG,grade3,Visual Studio Code for Windows
+F10, Step over,DEBUG,grade3,Visual Studio Code for Windows
+Ctrl+K Ctrl+I, Show hover,DEBUG,grade3,Visual Studio Code for Windows
+Ctrl+`, Show integrated terminal,INTEGRATED TERMINAL,grade3,Visual Studio Code for Windows
+Ctrl+Shift+`, Create new terminal,INTEGRATED TERMINAL,grade3,Visual Studio Code for Windows
+Ctrl+C, Copy selection,INTEGRATED TERMINAL,grade3,Visual Studio Code for Windows
+Ctrl+V, Paste into active terminal,INTEGRATED TERMINAL,grade3,Visual Studio Code for Windows
+Ctrl+? / ?, Scroll up/down,INTEGRATED TERMINAL,grade3,Visual Studio Code for Windows
+Shift+PgUp / PgDn, Scroll page up/down,INTEGRATED TERMINAL,grade3,Visual Studio Code for Windows
+Ctrl+Home / End, Scroll to top/bottom,INTEGRATED TERMINAL,grade3,Visual Studio Code for Windows
