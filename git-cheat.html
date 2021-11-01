@@ -18,17 +18,13 @@ layout: default
 {% assign dados2 = dados | group_by:"categoria" %} 
 
 
-
-{% for dado in dados2 %}
-
 <div class="col-md-6">
  <article class="blog-post">
   <table class="table table-striped table-sm">
-    <thead>
-      <tr>  
-      <th class="h5 text-secondary text-uppercase"  scope="col" colspan="2" >{{ dado.name }}</th>
-      </tr>
-    </thead>
+{% for dado in dados2 %}
+
+
+
 <p>{{ dado.name }}</p>
 {% for item in dado.items %}
 
