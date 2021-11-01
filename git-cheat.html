@@ -18,27 +18,26 @@ layout: default
 {% assign dados2 = dados | group_by:"categoria" %} 
 
 
-<div class="col-md-6">
+<div class="col-md-12">
  <article class="blog-post">
-  <table class="table table-striped table-sm">
+
 {% for dado in dados2 %}
 
 
+<h3>{{ dado.name }}</h3>
 
-<p>{{ dado.name }}</p>
 {% for item in dado.items %}
 
- <tr>
-  <th scope="row" style="width: 40%">{{ item.comandos }}</th>
-  <td>{{ item.descricao }}</td>
- </tr>
-{% endfor %}
-
-
-
+<p>{{ item.comandos }}</p>
+<p>{{ item.descricao }}</p>
 
 {% endfor %}
-</table>
+
+
+
+
+{% endfor %}
+
  </article>
 </div>
 
