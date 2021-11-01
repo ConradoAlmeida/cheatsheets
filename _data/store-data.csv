@@ -1,6 +1,7 @@
 comandos,descricao,categoria,grupo
 Ctrl+Shift+P / F1,Show Command Palette,General,Visual Studio Code for Windows
-comando 3,descricao 3,General2,Visual Studio Code for Windows
-comando 4,descricao 3,General2,Visual Studio Code for Windows
-comando 5,descricao 3,General2,Visual Studio Code for Windows
-comando 6,descricao 3,General3,Visual Studio Code for Windows
+Ctrl+P,Quick Open, Go to File,General,Visual Studio Code for Windows
+Ctrl+Shift+N,New windows/instance,General,Visual Studio Code for Windows
+Ctrl+Shift+W,Close windows/instance,General,Visual Studio Code for Windows
+Ctrl+,User Settings,General,Visual Studio Code for Windows
+Ctrl+K+Ctrl+S,General,Keyboard Shortcuts
