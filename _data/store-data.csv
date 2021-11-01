@@ -33,27 +33,119 @@ Ctrl+Shift+N,New window/instance,GENERAL,Visual Studio Code for Windows
 Ctrl+Shift+W,Close window/instance,GENERAL,Visual Studio Code for Windows
 "Ctrl+,",User Settings,GENERAL,Visual Studio Code for Windows
 Ctrl+K Ctrl+S,Keyboard Shortcuts,GENERAL,Visual Studio Code for Windows
-Ctrl+Shift+P or F1,Show Command Palette,GENERAL2,Visual Studio Code for Windows
-Ctrl+P,Quick Open and Go to File,GENERAL2,Visual Studio Code for Windows
-Ctrl+Shift+N,New window/instance,GENERAL2,Visual Studio Code for Windows
-Ctrl+Shift+W,Close window/instance,GENERAL2,Visual Studio Code for Windows
-"Ctrl+,",User Settings,GENERAL2,Visual Studio Code for Windows
-Ctrl+K Ctrl+S,Keyboard Shortcuts,GENERAL2,Visual Studio Code for Windows
-Ctrl+Shift+P or F1,Show Command Palette,GENERAL3,Visual Studio Code for Windows
-Ctrl+P,Quick Open and Go to File,GENERAL3,Visual Studio Code for Windows
-Ctrl+Shift+N,New window/instance,GENERAL3,Visual Studio Code for Windows
-Ctrl+Shift+W,Close window/instance,GENERAL3,Visual Studio Code for Windows
-"Ctrl+,",User Settings,GENERAL3,Visual Studio Code for Windows
-Ctrl+K Ctrl+S,Keyboard Shortcuts,GENERAL3,Visual Studio Code for Windows
-Ctrl+Shift+P or F1,Show Command Palette,GENERAL4,Visual Studio Code for Windows
-Ctrl+P,Quick Open and Go to File,GENERAL4,Visual Studio Code for Windows
-Ctrl+Shift+N,New window/instance,GENERAL4,Visual Studio Code for Windows
-Ctrl+Shift+W,Close window/instance,GENERAL4,Visual Studio Code for Windows
-"Ctrl+,",User Settings,GENERAL4,Visual Studio Code for Windows
-Ctrl+K Ctrl+S,Keyboard Shortcuts,GENERAL4,Visual Studio Code for Windows
-Ctrl+Shift+P or F1,Show Command Palette,GENERAL4,Visual Studio Code for Windows
-Ctrl+P,Quick Open and Go to File,GENERAL4,Visual Studio Code for Windows
-Ctrl+Shift+N,New window/instance,GENERAL4,Visual Studio Code for Windows
-Ctrl+Shift+W,Close window/instance,GENERAL4,Visual Studio Code for Windows
-"Ctrl+,",User Settings,GENERAL4,Visual Studio Code for Windows
-Ctrl+K Ctrl+S,Keyboard Shortcuts,GENERAL4,Visual Studio Code for Windows
+Ctrl+X, Cut line (empty selection),BASIC EDITING,Visual Studio Code for Windows
+Ctrl+C, Copy line (empty selection),BASIC EDITING,Visual Studio Code for Windows
+Alt+ ? / ?, Move line up/down,BASIC EDITING,Visual Studio Code for Windows
+Shift+Alt + ? / ?, Copy line up/down,BASIC EDITING,Visual Studio Code for Windows
+Ctrl+Shift+K, Delete line,BASIC EDITING,Visual Studio Code for Windows
+Ctrl+Enter, Insert line below,BASIC EDITING,Visual Studio Code for Windows
+Ctrl+Shift+Enter, Insert line above,BASIC EDITING,Visual Studio Code for Windows
+Ctrl+Shift+\, Jump to matching bracket,BASIC EDITING,Visual Studio Code for Windows
+Ctrl+] / [ ,Indent/outdent line,BASIC EDITING,Visual Studio Code for Windows
+Home / End, Go to beginning/end of line,BASIC EDITING,Visual Studio Code for Windows
+Ctrl+Home, Go to beginning of file,BASIC EDITING,Visual Studio Code for Windows
+Ctrl+End, Go to end of file,BASIC EDITING,Visual Studio Code for Windows
+Ctrl+? / ?, Scroll line up/down,BASIC EDITING,Visual Studio Code for Windows
+Alt+PgUp / PgDn, Scroll page up/down,BASIC EDITING,Visual Studio Code for Windows
+Ctrl+Shift+[, Fold (collapse) region,BASIC EDITING,Visual Studio Code for Windows
+Ctrl+Shift+], Unfold (uncollapse) region,BASIC EDITING,Visual Studio Code for Windows
+Ctrl+K Ctrl+[, Fold (collapse) all subregions,BASIC EDITING,Visual Studio Code for Windows
+Ctrl+K Ctrl+], Unfold (uncollapse) all subregions,BASIC EDITING,Visual Studio Code for Windows
+Ctrl+K Ctrl+0, Fold (collapse) all regions,BASIC EDITING,Visual Studio Code for Windows
+Ctrl+K Ctrl+J, Unfold (uncollapse) all regions,BASIC EDITING,Visual Studio Code for Windows
+Ctrl+K Ctrl+C, Add line comment,BASIC EDITING,Visual Studio Code for Windows
+Ctrl+K Ctrl+U, Remove line comment,BASIC EDITING,Visual Studio Code for Windows
+Ctrl+/, Toggle line comment,BASIC EDITING,Visual Studio Code for Windows
+Shift+Alt+A, Toggle block comment,BASIC EDITING,Visual Studio Code for Windows
+Alt+Z, Toggle word wrap,BASIC EDITING,Visual Studio Code for Windows
+Ctrl+T, Show all Symbols,NAVIGATION,Visual Studio Code for Windows
+Ctrl+G, Go to Line...,NAVIGATION,Visual Studio Code for Windows
+Ctrl+P, Go to File...,NAVIGATION,Visual Studio Code for Windows
+Ctrl+Shift+O, Go to Symbol...,NAVIGATION,Visual Studio Code for Windows
+Ctrl+Shift+M, Show Problems panel,NAVIGATION,Visual Studio Code for Windows
+F8, Go to next error or warning,NAVIGATION,Visual Studio Code for Windows
+Shift+F8, Go to previous error or warning,NAVIGATION,Visual Studio Code for Windows
+Ctrl+Shift+Tab, Navigate editor group history,NAVIGATION,Visual Studio Code for Windows
+Alt+ ? / ?, Go back / forward,NAVIGATION,Visual Studio Code for Windows
+Ctrl+M, Toggle Tab moves focus,NAVIGATION,Visual Studio Code for Windows
+Ctrl+F, Find,SEARCH AND REPLACE,Visual Studio Code for Windows
+Ctrl+H, Replace,SEARCH AND REPLACE,Visual Studio Code for Windows
+F3 / Shift+F3, Find next/previous,SEARCH AND REPLACE,Visual Studio Code for Windows
+Alt+Enter, Select all occurences of Find match,SEARCH AND REPLACE,Visual Studio Code for Windows
+Ctrl+D, Add selection to next Find match,SEARCH AND REPLACE,Visual Studio Code for Windows
+Ctrl+K Ctrl+D, Move last selection to next Find match,SEARCH AND REPLACE,Visual Studio Code for Windows
+Alt+C / R / W ,Toggle case-sensitive / regex / whole word,SEARCH AND REPLACE,Visual Studio Code for Windows
+Alt+Click, Insert cursor,Multi-cursor and selection,Visual Studio Code for Windows
+Ctrl+Alt+ ? / ?, Insert cursor above / below,Multi-cursor and selection,Visual Studio Code for Windows
+Ctrl+U, Undo last cursor operation,Multi-cursor and selection,Visual Studio Code for Windows
+Shift+Alt+I, Insert cursor at end of each line selected,Multi-cursor and selection,Visual Studio Code for Windows
+Ctrl+L, Select current line,Multi-cursor and selection,Visual Studio Code for Windows
+Ctrl+Shift+L, Select all occurrences of current selection,Multi-cursor and selection,Visual Studio Code for Windows
+Ctrl+F2, Select all occurrences of current word,Multi-cursor and selection,Visual Studio Code for Windows
+Shift+Alt+?, Expand selection,Multi-cursor and selection,Visual Studio Code for Windows
+Shift+Alt+?, Shrink selection,Multi-cursor and selection,Visual Studio Code for Windows
+Shift+Alt +(drag mouse),Column (box) selection,Multi-cursor and selection,Visual Studio Code for Windows
+Ctrl+Shift+Alt + (arrow key),Column (box) selection,Multi-cursor and selection,Visual Studio Code for Windows
+Ctrl+Shift+Alt+PgUp/PgDn,Column (box) selection page up/down,Multi-cursor and selection,Visual Studio Code for Windows
+"Ctrl+Space,Ctrl+I", Trigger suggestion,Rich languages editing,Visual Studio Code for Windows
+Ctrl+Shift+Space, Trigger parameter hints,Rich languages editing,Visual Studio Code for Windows
+Shift+Alt+F, Format document,Rich languages editing,Visual Studio Code for Windows
+Ctrl+K Ctrl+F, Format selection,Rich languages editing,Visual Studio Code for Windows
+F12, Go to Definition,Rich languages editing,Visual Studio Code for Windows
+Alt+F12, Peek Definition,Rich languages editing,Visual Studio Code for Windows
+Ctrl+K F12, Open Definition to the side,Rich languages editing,Visual Studio Code for Windows
+Ctrl+., Quick Fix,Rich languages editing,Visual Studio Code for Windows
+Shift+F12, Show References,Rich languages editing,Visual Studio Code for Windows
+F2, Rename Symbol,Rich languages editing,Visual Studio Code for Windows
+Ctrl+K Ctrl+X, Trim trailing whitespace,Rich languages editing,Visual Studio Code for Windows
+Ctrl+K M, Change file language,Rich languages editing,Visual Studio Code for Windows
+"Ctrl+F4, Ctrl+W", Close editor,EDITOR MANAGEMENT,Visual Studio Code for Windows
+Ctrl+K F, Close folder,EDITOR MANAGEMENT,Visual Studio Code for Windows
+Ctrl+\, Split editor,EDITOR MANAGEMENT,Visual Studio Code for Windows
+Ctrl+ 1 / 2 / 3," Focus into 1st,2nd or 3rd editor group",EDITOR MANAGEMENT,Visual Studio Code for Windows
+Ctrl+K Ctrl+ ?/?, Focus into previous/next editor group,EDITOR MANAGEMENT,Visual Studio Code for Windows
+Ctrl+Shift+PgUp / PgDn, Move editor left/right,EDITOR MANAGEMENT,Visual Studio Code for Windows
+Ctrl+K ? / ?, Move active editor group,EDITOR MANAGEMENT,Visual Studio Code for Windows
+Ctrl+N, New File,FILE MANAGEMENT,Visual Studio Code for Windows
+Ctrl+O, Open File...,FILE MANAGEMENT,Visual Studio Code for Windows
+Ctrl+S, Save,FILE MANAGEMENT,Visual Studio Code for Windows
+Ctrl+Shift+S, Save As...,FILE MANAGEMENT,Visual Studio Code for Windows
+Ctrl+K S, Save All,FILE MANAGEMENT,Visual Studio Code for Windows
+Ctrl+F4, Close,FILE MANAGEMENT,Visual Studio Code for Windows
+Ctrl+K Ctrl+W, Close All,FILE MANAGEMENT,Visual Studio Code for Windows
+Ctrl+Shift+T ,Reopen closed editor,FILE MANAGEMENT,Visual Studio Code for Windows
+Ctrl+K Enter ,Keep preview mode editor open,FILE MANAGEMENT,Visual Studio Code for Windows
+Ctrl+Tab ,Open next,FILE MANAGEMENT,Visual Studio Code for Windows
+Ctrl+Shift+Tab, Open previous,FILE MANAGEMENT,Visual Studio Code for Windows
+Ctrl+K P ,Copy path of active file,FILE MANAGEMENT,Visual Studio Code for Windows
+Ctrl+K R ,Reveal active file in Explorer,FILE MANAGEMENT,Visual Studio Code for Windows
+Ctrl+K O ,Show active file in new window/instance,FILE MANAGEMENT,Visual Studio Code for Windows
+F11 ,Toggle full screen,DISPLAY,Visual Studio Code for Windows
+Shift+Alt+0 ,Toggle editor layout (horizontal/vertical),DISPLAY,Visual Studio Code for Windows
+Ctrl+ = / - ,Zoom in/out,DISPLAY,Visual Studio Code for Windows
+Ctrl+B Toggle, Sidebar visibility,DISPLAY,Visual Studio Code for Windows
+Ctrl+Shift+E ,Show Explorer / Toggle focus,DISPLAY,Visual Studio Code for Windows
+Ctrl+Shift+F ,Show Search,DISPLAY,Visual Studio Code for Windows
+Ctrl+Shift+G ,Show Source Control,DISPLAY,Visual Studio Code for Windows
+Ctrl+Shift+D ,Show Debug,DISPLAY,Visual Studio Code for Windows
+Ctrl+Shift+X ,Show Extensions,DISPLAY,Visual Studio Code for Windows
+Ctrl+Shift+H ,Replace in files,DISPLAY,Visual Studio Code for Windows
+Ctrl+Shift+J ,Toggle Search details,DISPLAY,Visual Studio Code for Windows
+Ctrl+Shift+U ,Show Output panel,DISPLAY,Visual Studio Code for Windows
+Ctrl+Shift+V ,Open Markdown preview,DISPLAY,Visual Studio Code for Windows
+Ctrl+K V ,Open Markdown preview to the side,DISPLAY,Visual Studio Code for Windows
+Ctrl+K Z ,Zen Mode (Esc Esc to exit),DISPLAY,Visual Studio Code for Windows
+F9, Toggle breakpoint,DEBUG,Visual Studio Code for Windows
+F5, Start/Continue,DEBUG,Visual Studio Code for Windows
+Shift+F5, Stop,DEBUG,Visual Studio Code for Windows
+F11 / Shift+F11, Step into/out,DEBUG,Visual Studio Code for Windows
+F10, Step over,DEBUG,Visual Studio Code for Windows
+Ctrl+K Ctrl+I, Show hover,DEBUG,Visual Studio Code for Windows
+,,,Visual Studio Code for Windows
+Ctrl+`, Show integrated terminal,INTEGRATED TERMINAL,Visual Studio Code for Windows
+Ctrl+Shift+`, Create new terminal,INTEGRATED TERMINAL,Visual Studio Code for Windows
+Ctrl+C, Copy selection,INTEGRATED TERMINAL,Visual Studio Code for Windows
+Ctrl+V, Paste into active terminal,INTEGRATED TERMINAL,Visual Studio Code for Windows
+Ctrl+? / ?, Scroll up/down,INTEGRATED TERMINAL,Visual Studio Code for Windows
+Shift+PgUp / PgDn, Scroll page up/down,INTEGRATED TERMINAL,Visual Studio Code for Windows
+Ctrl+Home / End, Scroll to top/bottom,INTEGRATED TERMINAL,Visual Studio Code for Windows
