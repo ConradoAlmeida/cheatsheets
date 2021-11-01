@@ -102,7 +102,12 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
 }
 .text-custom {
-  color:chartreuse;
+  color:rgb(0, 104, 165);
+  font-family: 'Arial black', Arial, Helvetica, sans-serif;
+}
+.p {
+   font-family: 'Arial black', Arial, Helvetica, sans-serif;
+
 }
 .text-primary{
   font-family: 'Arial black', Arial, Helvetica, sans-serif;
