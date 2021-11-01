@@ -141,7 +141,6 @@ Shift+F5, Stop,DEBUG,Visual Studio Code for Windows
 F11 / Shift+F11, Step into/out,DEBUG,Visual Studio Code for Windows
 F10, Step over,DEBUG,Visual Studio Code for Windows
 Ctrl+K Ctrl+I, Show hover,DEBUG,Visual Studio Code for Windows
-,,,Visual Studio Code for Windows
 Ctrl+`, Show integrated terminal,INTEGRATED TERMINAL,Visual Studio Code for Windows
 Ctrl+Shift+`, Create new terminal,INTEGRATED TERMINAL,Visual Studio Code for Windows
 Ctrl+C, Copy selection,INTEGRATED TERMINAL,Visual Studio Code for Windows
