@@ -28,12 +28,15 @@ layout: default
       <th class="h5 text-secondary text-uppercase"  scope="col" colspan="2" >{{ dado.name }}</th>
       </tr>
     </thead>
-
+{% assign foo = 1 %}
 {% for item in dado.items %}
+{% increment foo %}
+{% if foo < 15 %}
  <tr>
   <th scope="row" style="width: 40%">{{ item.comandos }}</th>
   <td>{{ item.descricao }}</td>
  </tr>
+ {% endif %}
 {% endfor %}
 </table>
  </article>
