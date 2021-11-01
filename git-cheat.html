@@ -2,20 +2,22 @@
 layout: default
 ---
 
-<h1>Git/GitHub</h1>
+
 
 
 {% assign dados = site.data.store-data | where:"grupo","Git/GitHub" %}
 
 {% assign dados2 = dados | group_by:"categoria" %} 
 
-
+<div class="col-md-4">
+ <article class="blog-post">
+          <h2 class="blog-post-title">Git/GitHub</h2>
+        <p class="blog-post-meta">November 1, 2021 by <a href="#">Mark</a></p>
 {% for dado in dados2 %}
 
 
 
-<div class="col-md-4">
- <article class="blog-post">
+
   <table class="table table-striped table-sm">
     <thead>
       <tr>  
