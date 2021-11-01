@@ -31,5 +31,29 @@ Ctrl+Shift+P or F1,Show Command Palette,GENERAL,Visual Studio Code for Windows
 Ctrl+P,Quick Open and Go to File,GENERAL,Visual Studio Code for Windows
 Ctrl+Shift+N,New window/instance,GENERAL,Visual Studio Code for Windows
 Ctrl+Shift+W,Close window/instance,GENERAL,Visual Studio Code for Windows
-"""Ctrl+,""",User Settings,GENERAL,Visual Studio Code for Windows
+"Ctrl+,",User Settings,GENERAL,Visual Studio Code for Windows
 Ctrl+K Ctrl+S,Keyboard Shortcuts,GENERAL,Visual Studio Code for Windows
+Ctrl+Shift+P or F1,Show Command Palette,GENERAL2,Visual Studio Code for Windows
+Ctrl+P,Quick Open and Go to File,GENERAL2,Visual Studio Code for Windows
+Ctrl+Shift+N,New window/instance,GENERAL2,Visual Studio Code for Windows
+Ctrl+Shift+W,Close window/instance,GENERAL2,Visual Studio Code for Windows
+"Ctrl+,",User Settings,GENERAL2,Visual Studio Code for Windows
+Ctrl+K Ctrl+S,Keyboard Shortcuts,GENERAL2,Visual Studio Code for Windows
+Ctrl+Shift+P or F1,Show Command Palette,GENERAL3,Visual Studio Code for Windows
+Ctrl+P,Quick Open and Go to File,GENERAL3,Visual Studio Code for Windows
+Ctrl+Shift+N,New window/instance,GENERAL3,Visual Studio Code for Windows
+Ctrl+Shift+W,Close window/instance,GENERAL3,Visual Studio Code for Windows
+"Ctrl+,",User Settings,GENERAL3,Visual Studio Code for Windows
+Ctrl+K Ctrl+S,Keyboard Shortcuts,GENERAL3,Visual Studio Code for Windows
+Ctrl+Shift+P or F1,Show Command Palette,GENERAL4,Visual Studio Code for Windows
+Ctrl+P,Quick Open and Go to File,GENERAL4,Visual Studio Code for Windows
+Ctrl+Shift+N,New window/instance,GENERAL4,Visual Studio Code for Windows
+Ctrl+Shift+W,Close window/instance,GENERAL4,Visual Studio Code for Windows
+"Ctrl+,",User Settings,GENERAL4,Visual Studio Code for Windows
+Ctrl+K Ctrl+S,Keyboard Shortcuts,GENERAL4,Visual Studio Code for Windows
+Ctrl+Shift+P or F1,Show Command Palette,GENERAL4,Visual Studio Code for Windows
+Ctrl+P,Quick Open and Go to File,GENERAL4,Visual Studio Code for Windows
+Ctrl+Shift+N,New window/instance,GENERAL4,Visual Studio Code for Windows
+Ctrl+Shift+W,Close window/instance,GENERAL4,Visual Studio Code for Windows
+"Ctrl+,",User Settings,GENERAL4,Visual Studio Code for Windows
+Ctrl+K Ctrl+S,Keyboard Shortcuts,GENERAL4,Visual Studio Code for Windows
