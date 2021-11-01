@@ -1,23 +1,29 @@
 comandos,descricao,categoria,grupo
-Ctrl+Shift+P / F1,Show Command Palette,General,Visual Studio Code for Windows
-Ctrl+P,"Quick Open, Go to File",General,Visual Studio Code for Windows
-Ctrl+Shift+N,New windows/instance,General,Visual Studio Code for Windows
-Ctrl+Shift+W,Close windows/instance,General,Visual Studio Code for Windows
-"Ctrl+,",User Settings,General,Visual Studio Code for Windows
-Ctrl+K+Ctrl+S,Keyboard Shortcuts,General,Visual Studio Code for Windows
-Ctrl+K+Ctrl+S,Keyboard Shortcuts,Edit,Visual Studio Code for Windows
-Ctrl+K+Ctrl+S,Keyboard Shortcuts,Edit,Visual Studio Code for Windows
-Ctrl+K+Ctrl+S,Keyboard Shortcuts,view,Visual Studio Code for Windows
-Ctrl+K+Ctrl+S,Keyboard Shortcuts,view,Visual Studio Code for Windows
-Ctrl+K+Ctrl+S,Keyboard Shortcuts,view,Visual Studio Code for Windows
-Ctrl+K+Ctrl+S,Keyboard Shortcuts,copy,Visual Studio Code for Windows
-Ctrl+K+Ctrl+S,Keyboard Shortcuts,copy,Visual Studio Code for Windows
-Ctrl+K+Ctrl+S,Keyboard Shortcuts,copy,Visual Studio Code for Windows
-Ctrl+K+Ctrl+S,Keyboard Shortcuts,copy,Git/GitHub
-Ctrl+K+Ctrl+S,Keyboard Shortcuts,copy,Git/GitHub
-Ctrl+K+Ctrl+S,Keyboard Shortcuts,copy2,Git/GitHub
-Ctrl+K+Ctrl+S,Keyboard Shortcuts,copy2,Git/GitHub
-Ctrl+K+Ctrl+S,Keyboard Shortcuts,copy2,Git/GitHub
-Ctrl+K+Ctrl+S,Keyboard Shortcuts,copy3,Git/GitHub
-Ctrl+K+Ctrl+S,Keyboard Shortcuts,copy3,Git/GitHub
-Ctrl+K+Ctrl+S,Keyboard Shortcuts,copy3,Git/GitHub
+$ git ini [project name],From scratch --Create a new local repository,CREATE A REPOSITORY,Git/GitHub
+$ git clone my_url,Download from an existing repository,CREATE A REPOSITORY,Git/GitHub
+$ git status,List new or modified files not yes commited,OBSERVE YOUR REPOSITORY,Git/GitHub
+$ git diff,Show the changes to files not yes staged,OBSERVE YOUR REPOSITORY,Git/GitHub
+$ git diff --cached,Show changes to staged files,OBSERVE YOUR REPOSITORY,Git/GitHub
+$ git diff HEAD,Show all staged and unstaged files changes,OBSERVE YOUR REPOSITORY,Git/GitHub
+$ git diff commit1 commit2,Show the changes between two commits ids,OBSERVE YOUR REPOSITORY,Git/GitHub
+$ git blame [file],List the change dates and authors for a file,OBSERVE YOUR REPOSITORY,Git/GitHub
+$ git show [commit]:[file],Show the file changes for a commit id and/or file,OBSERVE YOUR REPOSITORY,Git/GitHub
+$ git log,Show full change history,OBSERVE YOUR REPOSITORY,Git/GitHub
+$ git log -p [file/directory],Show change history for file/directory,OBSERVE YOUR REPOSITORY,Git/GitHub
+$ git branch,List all local branches,WORKING WITH BRANCHES,Git/GitHub
+$ git branches -av,"List all branches, local and remote",WORKING WITH BRANCHES,Git/GitHub
+$ git checkout my_branch,Switch to a branch and update,WORKING WITH BRANCHES,Git/GitHub
+$ git branch new_branch,Create a new branch called new_branch,WORKING WITH BRANCHES,Git/GitHub
+$ git branch -d new_branch,Delete the branch called my_branch,WORKING WITH BRANCHES,Git/GitHub
+$ git checkout branch_b,Merge branch_a into branch_b step1,WORKING WITH BRANCHES,Git/GitHub
+$ git merge branch_a,Merge branch_a into branch_b step2,WORKING WITH BRANCHES,Git/GitHub
+$ git tag my_tag,Tag the current commit,WORKING WITH BRANCHES,Git/GitHub
+$ git add [file],"Stages the file, ready for commit",MAKE A CHANGE,Git/GitHub
+$ git add .,"Stafe all changed files, ready for commit",MAKE A CHANGE,Git/GitHub
+"$ git commit -am ""message""",Commit all your tracked files to versioned history,MAKE A CHANGE,Git/GitHub
+$ git reset [file],"Unstages files, keeping the file changes",MAKE A CHANGE,Git/GitHub
+$ git reset --hard,Revert everything the last commit,MAKE A CHANGE,Git/GitHub
+$ git fetch,Get the latest changes from origin (no merge),SYNCHRONIZE,Git/GitHub
+$ git pull,Fetch the latest changes from origin and merge,SYNCHRONIZE,Git/GitHub
+$ git pyll --rebase,Fetch the latest changes from origin and rebase,SYNCHRONIZE,Git/GitHub
+$ git push,Push local changes to the origin,SYNCHRONIZE,Git/GitHub
