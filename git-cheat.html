@@ -12,6 +12,8 @@ layout: default
 
 {% for dado in dados2 %}
 
+
+
 <div class="col-md-4">
  <article class="blog-post">
   <table class="table table-striped table-sm">
@@ -29,12 +31,9 @@ layout: default
 {% endfor %}
 </table>
  </article>
-</div>
+
 {% endfor %}
+ </div>
 
 
 
-
-{% if page.tags %}
-  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
-{% endif %}
