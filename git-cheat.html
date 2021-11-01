@@ -18,27 +18,34 @@ layout: default
 {% assign dados2 = dados | group_by:"categoria" %} 
 
 
-
-
 {% for dado in dados2 %}
+
 <div class="col-md-4">
-  <article class="blog-post">
-
-
-<h3 class="text-custom">{{ dado.name }}</h3>
+ <article class="blog-post">
+  <table class="table table-striped table-sm">
+    <thead>
+      <tr>  
+      <th class="h5 text-secondary text-uppercase"  scope="col" colspan="2" >{{ dado.name }}</th>
+      </tr>
+    </thead>
 
 {% for item in dado.items %}
-<p>{{ item.descricao }}</p>
-<h5>{{ item.comandos }}</h5>
-
-
+ <tr>
+  <th scope="row" style="width: 40%">{{ item.comandos }}</th>
+  <td>{{ item.descricao }}</td>
+ </tr>
 {% endfor %}
-
-
-</article>
+</table>
+ </article>
 </div>
-
 {% endfor %}
+
+
+
+
+{% if page.tags %}
+  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+{% endif %}
 
 
 
