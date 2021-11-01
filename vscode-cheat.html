@@ -16,9 +16,10 @@ layout: default
 {% assign dados = site.data.store-data | where:"grupo","Visual Studio Code for Windows" %}
 
 {% assign dados2 = dados | group_by:"categoria" %} 
-{{dados2[1].size}}
+
 
 {% for dado in dados2 %}
+{{dado[1].size}}
 
 
 <div class="col-md-4 mt-0">
