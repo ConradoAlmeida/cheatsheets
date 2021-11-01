@@ -1,0 +1,66 @@
+---
+layout: default
+---
+
+{% assign grupos = site.data.store-data | group_by:"grupo" %}
+{% for grupo in grupos %}
+<h1>{{ grupo.name }}</h1>
+{% endfor %}
+
+{% assign net = site.data.store-data | group_by:"categoria" %}
+
+
+    
+{% for cat in net %}
+<div class="col-md-4">
+      <article class="blog-post">
+     
+  
+
+<table class="table table-striped table-sm">
+       <thead>
+                 
+          <tr>
+               
+            <th class="h5 text-secondary text-uppercase"  scope="col" colspan="2" >{{ cat.name }}</th>
+          </tr>
+               
+        </thead>
+        <tbody>
+                
+{% for itens in cat.items %}
+                
+              <tr>
+            <th scope="row" style="width: 40%">{{ itens.comandos }}</th>
+            <td>{{ itens.descricao }}</td>
+          </tr>
+    
+      
+
+{% endfor %}
+                 </tbody>
+             </table>
+        </article>
+           </div>
+
+
+
+
+
+
+{% endfor %}
+ 
+<br>
+
+ 
+
+ 
+
+    
+
+
+
+
+{% if page.tags %}
+  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+{% endif %}
