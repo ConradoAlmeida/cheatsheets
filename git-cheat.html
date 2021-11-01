@@ -12,8 +12,7 @@ layout: default
          <p>GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git. Ele permite que programadores, 
           utilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo.</p>
         <hr>
- </article>
-</div>
+
 
 {% assign dados = site.data.store-data | where:"grupo","Git/GitHub" %}
 {% assign dados2 = dados | group_by:"categoria" %} 
@@ -22,7 +21,7 @@ layout: default
 
   {% for dado in dados2 %}
 <div class="col-md-4">
- <article class="blog-post">
+
 
   <table class="table table-striped table-sm">
     <thead>
@@ -38,13 +37,14 @@ layout: default
  </tr>
 {% endfor %}
       </table>
-   </article>
+
  </div>
 
 
 
 {% endfor %}
 
-
+ </article>
+</div>
 
 
