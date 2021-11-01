@@ -11,12 +11,16 @@ layout: default
 {% endfor %}
 
 
-
+{% assign teste = grupos | group_by:"categoria" %}
+{% for testes in teste %}
+{{ testes.name }}
+{% endfor %}
 
 
 
 {% assign net = site.data.store-data | group_by:"categoria" %} 
 {% for cat in net %}
+
 
 
 
