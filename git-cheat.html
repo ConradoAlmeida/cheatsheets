@@ -11,7 +11,7 @@ layout: default
 {% endfor %}
 
 
-{% assign teste = site.data.store-data | group_by:"categoria,grupo" %}
+{% assign teste = site.data.store-data | group_by:"categoria","grupo" %}
 {% for testes in teste %}
 {{ testes.name }}
 {% endfor %}
