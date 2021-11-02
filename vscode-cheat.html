@@ -41,34 +41,16 @@ layout: default
 </div>
 {% endfor %}
 
-
-
-<!--  desenvolvimento -->
-<!--  divisao baseada nas grades -->
-<hr>
-{% for dado in grade %}
-<div class="col-md-6 mt-0">
-  <!-- {% assign base = dado.items | group_by:"categoria" %} -->
- 
-  
-<article class="blog-post">
-  {% assign base = dado.items | group_by:"categoria" %}
-  {% for teste in base %}
-  {{teste.name}}
-  {% endfor %}
-
-  {% for item in dado.items %}
- 
-
-  <p>{{ item.categoria }}</p>
-  
-  <p>{{ item.comandos }}</p>
-  <p>{{ item.descricao }}</p>
-  {% endfor %}
-
-</article>
+<div class="container">
+  <div class="row row-cols-2">
+    <div class="col">Column</div>
+    <div class="col">Column</div>
+    <div class="col">Column</div>
+    <div class="col">Column</div>
+  </div>
 </div>
-{% endfor %}
+
+
 
 
 
