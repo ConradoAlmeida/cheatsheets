@@ -15,7 +15,7 @@ layout: default
 
 {% assign dados = site.data.store-data | where:"grupo","Visual Studio Code for Windows" %}
 {% assign dados2 = dados | group_by:"categoria" %} 
-
+<div class="col-md-12">
 <div class="row" data-masonry="{&quot;percentPosition&quot;: true }" style="position: relative; height: 0px;">
 
 
@@ -46,9 +46,7 @@ layout: default
 </div>
 </div>
 </div>
- 
-  
-  {% endfor %}
+{% endfor %}
  
 
 
@@ -61,8 +59,7 @@ layout: default
 
 
 </div>
-
-
+</div>
 
 {% if page.tags %}
   <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
