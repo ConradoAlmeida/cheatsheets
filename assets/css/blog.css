@@ -114,12 +114,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .row {
- 
+  display: flex;
   flex-wrap: wrap;
 }
 .row > [class*='col-'] {
-
+  display: flex;
   flex-direction: column;
 }
 
 
+.cel {
+  display: flex;
+  flex-wrap: wrap;
+}
