@@ -49,7 +49,9 @@ layout: default
 {% for dado in grade %}
 <div class="col-md-6 mt-0">
   {% assign base = dado.items | group_by:"categoria" %}
+  {% if forloop.index0 == 0%}
   {{base.name}}
+  {% endif %}
 <article class="blog-post">
   {% for item in dado.items %}
 
