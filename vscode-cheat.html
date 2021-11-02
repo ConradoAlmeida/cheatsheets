@@ -53,8 +53,10 @@ layout: default
   
 <article class="blog-post">
   {% assign base = dado.items | group_by:"categoria" %}
-  {{base.name}}
-  
+  {% for teste in base %}
+  {{teste.name}}
+  {% endfor %}
+
   {% for item in dado.items %}
  
 
