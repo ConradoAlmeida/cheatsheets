@@ -48,9 +48,10 @@ layout: default
 <hr>
 {% for dado in grade %}
 <div class="col-md-6 mt-0">
-  {% assign base = dado.items | group_by:"categoria" %}
+  <!-- {% assign base = dado.items | group_by:"categoria" %}
   {{ forloop.index0 }}
-  {{base.name}}
+  {{base.name}} -->
+  {% endfor %}
   
 <article class="blog-post">
   {% for item in dado.items %}
@@ -62,7 +63,7 @@ layout: default
 
 </article>
 </div>
-{% endfor %}
+
 
 
 
