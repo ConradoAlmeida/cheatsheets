@@ -1,0 +1,68 @@
+---
+layout: default
+---
+<div class="col-md-12">
+
+          <h2 class="blog-post-title">Visual Studio Code for Windows</h2>
+        <p class="blog-post-meta">November 1, 2021 by <a href="#">Conrado Almeida</a></p>
+        <p class="blog-post-meta">Reference <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Key Bindings for Visual Studio Code</a></p>
+         <p>O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft para Windows, Linux e macOS.
+         Ele inclui suporte para depuração, controle de versionamento Git incorporado, realce de sintaxe, complementação inteligente de código, snippets e refatoração de código.</p>
+        <hr>
+</div>
+
+
+
+{% assign dados = site.data.store-data | where:"grupo","Visual Studio Code for Windows" %}
+{% assign dados2 = dados | group_by:"categoria" %} 
+
+<div class="row" data-masonry="{&quot;percentPosition&quot;: true }" style="position: relative; height: 0px;">
+
+
+  {% assign dados = site.data.store-data | where:"grupo","Visual Studio Code for Windows" %}
+  {% assign dados2 = dados | group_by:"categoria" %} 
+  
+  <div class="col-sm-6 col-lg-6 mb-2" style="position: absolute; left: 50%; top: 940px;">
+    <div class="card">
+      <div class="card-body">
+  {% for dado in dados2 %}
+  
+  
+   <article class="blog-post">
+    <table class="table table-striped table-sm">
+      <thead>
+        <tr>  
+        <th class="h5 text-secondary text-uppercase"  scope="col" colspan="2" >{{ dado.name }}</th>
+        </tr>
+      </thead>
+  
+  {% for item in dado.items %}
+   <tr>
+    <th scope="row" style="width: 40%">{{ item.comandos }}</th>
+    <td>{{ item.descricao }}</td>
+   </tr>
+  {% endfor %}
+  </table>
+   </article>
+  
+  {% endfor %}
+  </div>
+  </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+{% if page.tags %}
+  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+{% endif %}
