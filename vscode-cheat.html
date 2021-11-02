@@ -15,10 +15,10 @@ layout: default
 
 {% assign dados = site.data.store-data | where:"grupo","Visual Studio Code for Windows" %}
 
-{% comment %} {% assign dados2 = dados | group_by:"categoria" %} {% endcomment %}
-{% assign dados2 = dados | group_by:"grade" %}
+{% assign cat = dados | group_by:"categoria" %}
+{% assign grade = dados | group_by:"grade" %}
 
-{% for dado in dados2 %}
+{% for dado in grade %}
 
 
 <div class="col-md-6 mt-0">
@@ -41,6 +41,15 @@ layout: default
 </div>
 {% endfor %}
 
+<!--  desenvolvimento -->
+<!--  divisao baseada nas grades -->
+{% for dado in grade %}
+<article class="blog-post">
+
+  <td>em desenvolvimento</td>
+
+</div>
+{% endfor %}
 
 
 
