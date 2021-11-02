@@ -19,13 +19,13 @@ layout: default
 <div class="row" data-masonry="{&quot;percentPosition&quot;: true }" style="position: relative; height: 0px;">
 
 
-  {% assign dados = site.data.store-data | where:"grupo","Visual Studio Code for Windows" %}
-  {% assign dados2 = dados | group_by:"categoria" %} 
+
   
+
+  {% for dado in dados2 %}
   <div class="col-sm-6 col-lg-6 mb-2" style="position: absolute; left: 50%; top: 940px;">
     <div class="card">
       <div class="card-body">
-  {% for dado in dados2 %}
   
   
    
