@@ -16,44 +16,39 @@ layout: default
 {% assign dados = site.data.store-data | where:"grupo","Visual Studio Code for Windows" %}
 {% assign dados2 = dados | group_by:"categoria" %} 
 
-<div class="row">
+<div class="col-md-12">
 
-{% for dado in dados2 %}
-<div class="col-md-6">
-
+<div class="row" data-masonry="{&quot;percentPosition&quot;: true }" style="position: relative; height: 0px;">
+  {% for dado in dados2 %}
+  <div class="col-sm-6 col-lg-6 mb-2" style="position: absolute; left: 50%; top: 940px;">
+    <div class="card">
+      <div class="card-body">
   
-
-
+  
+    <article class="blog-post">
+    <table class="table table-striped table-sm">
+      <thead>
+        <tr>  
+        <th class="h5 text-secondary text-uppercase"  scope="col" colspan="2" >{{ dado.name }}</th>
+        </tr>
+      </thead>
+  
+  {% for item in dado.items %}
+   <tr>
+    <th scope="row" style="width: 40%">{{ item.comandos }}</th>
+    <td>{{ item.descricao }}</td>
+   </tr>
+  {% endfor %}
+  </table>
+    </article>
+</div>
+</div>
+</div>
+{% endfor %}
  
 
-{% for item in dado.items %}
-
-{{ item.comandos }}
-{{ item.descricao }}
- 
-{% endfor %}
-
-
-
 </div>
-{% endfor %}
-
 </div>
-
-<div class="row">
-  
-{% for dado in dados2 %}
-{% for item in dado.items %}
-  <div class="col-md-6">{{ item.comandos }}</div>
-  {% endfor %}
-  {% endfor %}
-</div>
-
-
-
-
-
-
 
 {% if page.tags %}
   <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>

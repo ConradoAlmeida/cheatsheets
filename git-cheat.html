@@ -17,30 +17,39 @@ layout: default
 {% assign dados = site.data.store-data | where:"grupo","Git/GitHub" %}
 {% assign dados2 = dados | group_by:"categoria" %} 
 
-<div class="row row-cols-2">
-{% for dado in dados2 %}
+<div class="col-md-12">
 
-
- <article class="blog-post">
-  <table class="table table-striped table-sm">
-    <thead>
-      <tr>  
-      <th class="h5 text-secondary text-uppercase"  scope="col" colspan="2" >{{ dado.name }}</th>
-      </tr>
-    </thead>
-
-{% for item in dado.items %}
- <tr>
-  <th scope="row" style="width: 40%">{{ item.comandos }}</th>
-  <td>{{ item.descricao }}</td>
- </tr>
-{% endfor %}
-</table>
- </article>
-
-{% endfor %}
+<div class="row" data-masonry="{&quot;percentPosition&quot;: true }" style="position: relative; height: 0px;">
+  {% for dado in dados2 %}
+  <div class="col-sm-6 col-lg-6 mb-2" style="position: absolute; left: 50%; top: 940px;">
+    <div class="card">
+      <div class="card-body">
+  
+  
+    <article class="blog-post">
+    <table class="table table-striped table-sm">
+      <thead>
+        <tr>  
+        <th class="h5 text-secondary text-uppercase"  scope="col" colspan="2" >{{ dado.name }}</th>
+        </tr>
+      </thead>
+  
+  {% for item in dado.items %}
+   <tr>
+    <th scope="row" style="width: 40%">{{ item.comandos }}</th>
+    <td>{{ item.descricao }}</td>
+   </tr>
+  {% endfor %}
+  </table>
+    </article>
 </div>
+</div>
+</div>
+{% endfor %}
+ 
 
+</div>
+</div>
 
 
 
