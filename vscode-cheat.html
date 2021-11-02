@@ -17,11 +17,11 @@ layout: default
 
 {% assign cat = dados | group_by:"categoria" %}
 {% assign grade = dados | group_by:"grade" %}
-
+<div class="row row-cols-2">
 {% for dado in grade %}
 
 
-<div class="row row-cols-2">
+
  <article class="blog-post">
   <table class="table table-striped table-sm">
     <thead>
