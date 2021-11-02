@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
    font-family: 'Arial', Arial, Helvetica, sans-serif;
 
 }
-.text-primary{
+/* .text-primary{
   font-family: 'Arial', Arial, Helvetica, sans-serif;
 }
 
@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 .blog-post-meta {
   margin-bottom: 1.25rem;
   color: #727272;
-}
+} */
 
 
 .blog-footer {
@@ -41,6 +41,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #f9f9f9;
   border-top: .05rem solid #e5e5e5;
 }
+
 .blog-footer p:last-child {
   margin-bottom: 0;
 }
