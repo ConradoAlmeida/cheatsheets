@@ -92,7 +92,8 @@ h1, h2, h3, h4, h5, h6 {
  * Footer
  */
 .blog-footer {
-  padding: 2.5rem 0;
+  /* padding: 2.5rem 0; */
+  padding: absolute;
   color: #727272;
   text-align: center;
   background-color: #f9f9f9;
@@ -113,22 +114,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Arial', Arial, Helvetica, sans-serif;
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
-.row > [class*='col-'] {
-  display: flex;
-  flex-direction: column;
-}
-
-
-.cel {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .card{
-	border-color:white;
+	border-color: white;
 	
 }
