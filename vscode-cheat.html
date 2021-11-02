@@ -47,11 +47,14 @@ layout: default
 <!--  divisao baseada nas grades -->
 <br>
 {% for dado in grade %}
+<div class="col-md-6 mt-0">
 <article class="blog-post">
 
   <p>{{ dado.name }}</p>
+  <p>{{ dado.items }}</p>
 
 </article>
+</div>
 {% endfor %}
 
 
