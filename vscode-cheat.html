@@ -48,10 +48,11 @@ layout: default
 <hr>
 {% for dado in grade %}
 <div class="col-md-6 mt-0">
+  {{dado.name}}
 <article class="blog-post">
   {% for item in dado.items %}
 
-  <p>{{ item.grupo }}</p>
+  <p>{{ item.categoria }}</p>
   <p>{{ item.comandos }}</p>
   <p>{{ item.descricao }}</p>
   {% endfor %}
