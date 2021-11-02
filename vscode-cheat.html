@@ -51,18 +51,20 @@ layout: default
   <!-- {% assign base = dado.items | group_by:"categoria" %}
   {{ forloop.index0 }}
   {{base.name}} -->
-  {% endfor %}
+ 
   
 <article class="blog-post">
   {% for item in dado.items %}
-
+  {% if forloop.first %}
   <p>{{ item.categoria }}</p>
+  {% endif %}
   <p>{{ item.comandos }}</p>
   <p>{{ item.descricao }}</p>
   {% endfor %}
 
 </article>
 </div>
+{% endfor %}
 
 
 
