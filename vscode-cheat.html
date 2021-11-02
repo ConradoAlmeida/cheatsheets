@@ -49,9 +49,11 @@ layout: default
 {% for dado in grade %}
 <div class="col-md-6 mt-0">
 <article class="blog-post">
+  {% for item in dado.items %}
 
-  <p>{{ dado.name }}</p>
-  <p>{{ dado.items }}</p>
+  <p>{{ item.grupo }}</p>
+  <p>{{ item.comandos }}</p>
+  <p>{{ item.descricao }}</p>
 
 </article>
 </div>
