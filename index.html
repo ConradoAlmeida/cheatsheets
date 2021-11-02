@@ -12,12 +12,14 @@ layout: default
         <h2 class="blog-post-title">{{dado.name}}</h2>
         <p class="blog-post-meta">November 1, 2021 by <a href="#">Conrado</a></p>
 
-        <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, lists, tables, images, code, and more are all supported as expected.</p>
+        <p>Showing first 10 itens.</p>
         <hr>
         {% for item in dado.items %}
+        {% if forloop.index < 10 %}
 
         <p>{{item.comandos}}</p>
         <p>{{item.descricao}}</p>
+        {% endif %}
         {% endfor %}
       </article>
 {% endfor %}
