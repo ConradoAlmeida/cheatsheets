@@ -150,8 +150,8 @@ Shift+PgUp / PgDn, Scroll page up/down,INTEGRATED TERMINAL,Visual Studio Code fo
 Ctrl+Home / End, Scroll to top/bottom,INTEGRATED TERMINAL,Visual Studio Code for Windows
 Ctrl+Shift+A,Find action by name,EDITING,Pycharm
 Double Shift,Search Everywhere,EDITING,Pycharm
-Alt+Enter,Show the list of available intention actions,EDITING,Pycharm
-Alt+F1,"Switch between views (Project, Structure, etc.)",EDITING,Pycharm
+Alt+Enter,Show the list of available intention actions,EDITING,Pycharm
+Alt+F1,Switch between views,EDITING,Pycharm
 Ctrl+Tab,Switch between the tool windows and files opened in the editor,EDITING,Pycharm
 Alt+Home,Show the Navigation bar,EDITING,Pycharm
 Ctrl+J,Insert a live template,EDITING,Pycharm
@@ -167,5 +167,5 @@ Ctrl+F,Find text string in the current file,EDITING,Pycharm
 Ctrl+Shift+F,Find text in the project or in the specified directory,EDITING,Pycharm
 Ctrl+Shift+F7,Quickly view the usages of the selected symbol,EDITING,Pycharm
 Ctrl+NumPad Plus,Expand or collapse a code block in the editor,EDITING,Pycharm
-Ctrl+NumPad –,Expand or collapse a code block in the editor,EDITING,Pycharm
+Ctrl+NumPad Minus,Expand or collapse a code block in the editor,EDITING,Pycharm
 Ctrl+Space,Invoke code completion,EDITING,Pycharm
