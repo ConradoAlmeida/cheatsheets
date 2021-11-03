@@ -145,6 +145,6 @@ Ctrl+`, Show integrated terminal,INTEGRATED TERMINAL,grade2,Visual Studio Code f
 Ctrl+Shift+`, Create new terminal,INTEGRATED TERMINAL,grade2,Visual Studio Code for Windows
 Ctrl+C, Copy selection,INTEGRATED TERMINAL,grade2,Visual Studio Code for Windows
 Ctrl+V, Paste into active terminal,INTEGRATED TERMINAL,grade2,Visual Studio Code for Windows
-Ctrl+ up / down;, Scroll up/down,INTEGRATED TERMINAL,grade2,Visual Studio Code for Windows
+Ctrl+ up / down, Scroll up/down,INTEGRATED TERMINAL,grade2,Visual Studio Code for Windows
 Shift+PgUp / PgDn, Scroll page up/down,INTEGRATED TERMINAL,grade2,Visual Studio Code for Windows
 Ctrl+Home / End, Scroll to top/bottom,INTEGRATED TERMINAL,grade2,Visual Studio Code for Windows
