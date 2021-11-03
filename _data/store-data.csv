@@ -153,12 +153,12 @@ Double Shift,Search Everywhere,EDITING,Pycharm
 Alt+Enter,Show the list of available intention actions,EDITING,Pycharm
 Alt+F1,Switch between views,EDITING,Pycharm
 Ctrl+Tab,Switch between the tool windows and files opened in the editor,EDITING,Pycharm
-Alt+Home,Show the Navigation bar,EDITING,Pycharm
+Alt+Home,Show theï¿½Navigation bar,EDITING,Pycharm
 Ctrl+J,Insert a live template,EDITING,Pycharm
 Ctrl+Alt+J,Surround with a live template,EDITING,Pycharm
 F4,Edit an item from the Project or another tree view,EDITING,Pycharm
-Ctrl+Slash,Comment or uncomment a line or fragment of code with a line or block comment,EDITING,Pycharm
-Ctrl+Shift+Slash,Comment or uncomment a line or fragment of code with a line or block comment,EDITING,Pycharm
+Ctrl+Slash,Comment or uncomment a line or fragment of codewith a line or block comment,EDITING,Pycharm
+Ctrl+Shift+Slash,Comment or uncomment a line or fragment of codewith a line or block comment,EDITING,Pycharm
 Ctrl+N,Find class or file by name,EDITING,Pycharm
 Ctrl+Shift+N,Find class or file by name,EDITING,Pycharm
 Ctrl+D,Duplicate the current line or selection,EDITING,Pycharm
