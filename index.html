@@ -7,8 +7,12 @@ layout: default
 
 
 <div class="col-md-12">
- {{page.date}}
- {{file.modified_time}}
+{% assign image_files = site.static_files %}
+{% for myimage in image_files %}
+  {{ myimage.path }}
+{% endfor %}
+ 
+ 
  {% for dado in dados %}
 
       <article class="blog-post">
