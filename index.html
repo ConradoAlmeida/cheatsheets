@@ -17,11 +17,8 @@ layout: default
         <hr>
         {% for item in dado.items %}
         {% if forloop.index < 10 %}
-                                <p>{{item}}</p>
-                                <p> conrado loop {{forloop.index}}</p>
-<p>{{item.categoria}}</p>
-        <p>{{item.comandos}}</p>
-        <p>{{item.descricao}}</p>
+                                
+                                <p> #{{forloop.index}}: COMMAND: <strong>{{item.comandos}}</strong> // DESCRIPTION: {{item.descricao}}</p>
         {% endif %}
         {% endfor %}
       </article>
