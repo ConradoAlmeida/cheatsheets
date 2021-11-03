@@ -1,2 +1,7 @@
 store-data.xlsx
 ~$store-data.xlsx
+.jekyll-cache/
+Gemfile
+Gemfile.lock
+old/
+_site
