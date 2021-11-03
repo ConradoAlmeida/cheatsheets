@@ -35,8 +35,8 @@ Ctrl+Shift+W,Close window/instance,GENERAL,grade1,Visual Studio Code for Windows
 Ctrl+K Ctrl+S,Keyboard Shortcuts,GENERAL,grade1,Visual Studio Code for Windows
 Ctrl+X, Cut line (empty selection),BASIC EDITING,grade1,Visual Studio Code for Windows
 Ctrl+C, Copy line (empty selection),BASIC EDITING,grade1,Visual Studio Code for Windows
-Alt+ ↑ / ↓, Move line up/down,BASIC EDITING,grade1,Visual Studio Code for Windows
-Shift+Alt + ↓ / ↑, Copy line up/down,BASIC EDITING,grade1,Visual Studio Code for Windows
+Alt+ up / down, Move line up/down,BASIC EDITING,grade1,Visual Studio Code for Windows
+Shift+Alt + up / down, Copy line up/down,BASIC EDITING,grade1,Visual Studio Code for Windows
 Ctrl+Shift+K, Delete line,BASIC EDITING,grade1,Visual Studio Code for Windows
 Ctrl+Enter, Insert line below,BASIC EDITING,grade1,Visual Studio Code for Windows
 Ctrl+Shift+Enter, Insert line above,BASIC EDITING,grade1,Visual Studio Code for Windows
@@ -45,7 +45,7 @@ Ctrl+] / [ ,Indent/outdent line,BASIC EDITING,grade1,Visual Studio Code for Wind
 Home / End, Go to beginning/end of line,BASIC EDITING,grade1,Visual Studio Code for Windows
 Ctrl+Home, Go to beginning of file,BASIC EDITING,grade1,Visual Studio Code for Windows
 Ctrl+End, Go to end of file,BASIC EDITING,grade1,Visual Studio Code for Windows
-Ctrl+↑ / ↓, Scroll line up/down,BASIC EDITING,grade1,Visual Studio Code for Windows
+Ctrl+ up / down, Scroll line up/down,BASIC EDITING,grade1,Visual Studio Code for Windows
 Alt+PgUp / PgDn, Scroll page up/down,BASIC EDITING,grade1,Visual Studio Code for Windows
 Ctrl+Shift+[, Fold (collapse) region,BASIC EDITING,grade1,Visual Studio Code for Windows
 Ctrl+Shift+], Unfold (uncollapse) region,BASIC EDITING,grade1,Visual Studio Code for Windows
@@ -66,7 +66,7 @@ Ctrl+Shift+M, Show Problems panel,NAVIGATION,grade1,Visual Studio Code for Windo
 F8, Go to next error or warning,NAVIGATION,grade1,Visual Studio Code for Windows
 Shift+F8, Go to previous error or warning,NAVIGATION,grade1,Visual Studio Code for Windows
 Ctrl+Shift+Tab, Navigate editor group history,NAVIGATION,grade1,Visual Studio Code for Windows
-Alt+ ← / →, Go back / forward,NAVIGATION,grade1,Visual Studio Code for Windows
+Alt+ left / right, Go back / forward,NAVIGATION,grade1,Visual Studio Code for Windows
 Ctrl+M, Toggle Tab moves focus,NAVIGATION,grade1,Visual Studio Code for Windows
 Ctrl+F, Find,SEARCH AND REPLACE,grade1,Visual Studio Code for Windows
 Ctrl+H, Replace,SEARCH AND REPLACE,grade1,Visual Studio Code for Windows
@@ -76,14 +76,14 @@ Ctrl+D, Add selection to next Find match,SEARCH AND REPLACE,grade1,Visual Studio
 Ctrl+K Ctrl+D, Move last selection to next Find match,SEARCH AND REPLACE,grade1,Visual Studio Code for Windows
 Alt+C / R / W ,Toggle case-sensitive / regex / whole word,SEARCH AND REPLACE,grade1,Visual Studio Code for Windows
 Alt+Click, Insert cursor,Multi-cursor and selection,grade1,Visual Studio Code for Windows
-Ctrl+Alt+ ↑ / ↓, Insert cursor above / below,Multi-cursor and selection,grade1,Visual Studio Code for Windows
+Ctrl+Alt+ up / down, Insert cursor above / below,Multi-cursor and selection,grade1,Visual Studio Code for Windows
 Ctrl+U, Undo last cursor operation,Multi-cursor and selection,grade1,Visual Studio Code for Windows
 Shift+Alt+I, Insert cursor at end of each line selected,Multi-cursor and selection,grade1,Visual Studio Code for Windows
 Ctrl+L, Select current line,Multi-cursor and selection,grade1,Visual Studio Code for Windows
 Ctrl+Shift+L, Select all occurrences of current selection,Multi-cursor and selection,grade1,Visual Studio Code for Windows
 Ctrl+F2, Select all occurrences of current word,Multi-cursor and selection,grade1,Visual Studio Code for Windows
-Shift+Alt+→, Expand selection,Multi-cursor and selection,grade1,Visual Studio Code for Windows
-Shift+Alt+←, Shrink selection,Multi-cursor and selection,grade1,Visual Studio Code for Windows
+Shift+Alt+ right, Expand selection,Multi-cursor and selection,grade1,Visual Studio Code for Windows
+Shift+Alt+ left, Shrink selection,Multi-cursor and selection,grade1,Visual Studio Code for Windows
 Shift+Alt +(drag mouse),Column (box) selection,Multi-cursor and selection,grade1,Visual Studio Code for Windows
 Ctrl+Shift+Alt + (arrow key),Column (box) selection,Multi-cursor and selection,grade1,Visual Studio Code for Windows
 Ctrl+Shift+Alt+PgUp/PgDn,Column (box) selection page up/down,Multi-cursor and selection,grade1,Visual Studio Code for Windows
@@ -103,9 +103,9 @@ Ctrl+K M, Change file language,Rich languages editing,grade2,Visual Studio Code 
 Ctrl+K F, Close folder,EDITOR MANAGEMENT,grade2,Visual Studio Code for Windows
 Ctrl+\, Split editor,EDITOR MANAGEMENT,grade2,Visual Studio Code for Windows
 Ctrl+ 1 / 2 / 3," Focus into 1st,2nd or 3rd editor group",EDITOR MANAGEMENT,grade2,Visual Studio Code for Windows
-Ctrl+K Ctrl+ ←/→, Focus into previous/next editor group,EDITOR MANAGEMENT,grade2,Visual Studio Code for Windows
+Ctrl+K Ctrl+ left / right, Focus into previous/next editor group,EDITOR MANAGEMENT,grade2,Visual Studio Code for Windows
 Ctrl+Shift+PgUp / PgDn, Move editor left/right,EDITOR MANAGEMENT,grade2,Visual Studio Code for Windows
-Ctrl+K ← / →, Move active editor group,EDITOR MANAGEMENT,grade2,Visual Studio Code for Windows
+Ctrl+K left / right, Move active editor group,EDITOR MANAGEMENT,grade2,Visual Studio Code for Windows
 Ctrl+N, New File,FILE MANAGEMENT,grade2,Visual Studio Code for Windows
 Ctrl+O, Open File...,FILE MANAGEMENT,grade2,Visual Studio Code for Windows
 Ctrl+S, Save,FILE MANAGEMENT,grade2,Visual Studio Code for Windows
@@ -145,6 +145,6 @@ Ctrl+`, Show integrated terminal,INTEGRATED TERMINAL,grade2,Visual Studio Code f
 Ctrl+Shift+`, Create new terminal,INTEGRATED TERMINAL,grade2,Visual Studio Code for Windows
 Ctrl+C, Copy selection,INTEGRATED TERMINAL,grade2,Visual Studio Code for Windows
 Ctrl+V, Paste into active terminal,INTEGRATED TERMINAL,grade2,Visual Studio Code for Windows
-Ctrl+ &#9650; / &#9660;, Scroll up/down,INTEGRATED TERMINAL,grade2,Visual Studio Code for Windows
+Ctrl+ up / down;, Scroll up/down,INTEGRATED TERMINAL,grade2,Visual Studio Code for Windows
 Shift+PgUp / PgDn, Scroll page up/down,INTEGRATED TERMINAL,grade2,Visual Studio Code for Windows
 Ctrl+Home / End, Scroll to top/bottom,INTEGRATED TERMINAL,grade2,Visual Studio Code for Windows
