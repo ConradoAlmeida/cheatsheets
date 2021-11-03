@@ -1,0 +1,60 @@
+---
+layout: default
+lang: Python
+---
+
+
+{% assign details = site.data.lang-data | where:"name", page.lang %}
+
+<div class="col-md-12">
+
+          <h2 class="blog-post-title">Git/GitHub</h2>
+        <p class="blog-post-meta">November 1, 2021 by <a href="#">Conrado Almeida</a></p>
+         <p>GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git. Ele permite que programadores, 
+          utilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo.</p>
+        <hr>
+</div>
+
+{% assign dados = site.data.store-data | where:"grupo","Git/GitHub" %}
+{% assign dados2 = dados | group_by:"categoria" %} 
+
+<div class="col-md-12">
+
+<div class="row" data-masonry="{&quot;percentPosition&quot;: true }" style="position: relative; height: 0px;">
+  {% for dado in dados2 %}
+  <div class="col-sm-6 col-lg-6 mb-2" style="position: absolute; left: 50%; top: 940px;">
+    <div class="card">
+      <div class="card-body">
+  
+  
+    <article class="blog-post">
+    <table class="table table-striped table-sm">
+      <thead>
+        <tr>  
+        <th class="h5 text-secondary text-uppercase"  scope="col" colspan="2" >{{ dado.name }}</th>
+        </tr>
+      </thead>
+  
+  {% for item in dado.items %}
+   <tr>
+    <th scope="row" style="width: 40%">{{ item.comandos }}</th>
+    <td>{{ item.descricao }}</td>
+   </tr>
+  {% endfor %}
+  </table>
+    </article>
+</div>
+</div>
+</div>
+{% endfor %}
+ 
+
+</div>
+</div>
+
+
+
+
+
+
+
