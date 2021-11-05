@@ -1,5 +1,6 @@
-langname,description
-Visual Studio Code,vscode
-Pycharm,pycharm
-Python,Python is na interpreted high-level general-purpose programming language
-Markdown,markdown
+lang-name,lang-alias,page,description,author
+Git/GitHub,git, github description,git-cheat.html,Conrado Almeida
+Visual Studio Code,vscode,vscode-cheat.html,vscode,Conrado Almeida
+Pycharm,pycharm,pycharm-cheat.html,pycharm,Conrado Almeida
+Python,py,py-cheat.html,Python is na interpreted high-level general-purpose programming language,Conrado Almeida
+Markdown,mark,markdown-cheat.html,markdown,Conrado Almeida
