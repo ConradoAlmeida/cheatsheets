@@ -1,6 +1,6 @@
 lang-name,lang-alias,page,description,author
 Git/GitHub,git, github description,git-cheat.html,"<a class=""text-primary"">Conrado Almeida</a>"
-Visual Studio Code,vscode,vscode-cheat.html,vscode,Conrado Almeida
-Pycharm,pycharm,pycharm-cheat.html,pycharm,Conrado Almeida
-Python,py,py-cheat.html,Python is na interpreted high-level general-purpose programming language,Conrado Almeida
-Markdown,mark,markdown-cheat.html,markdown,Conrado Almeida
+Visual Studio Code,vscode,vscode-cheat.html,vscode,"<a class=""text-primary"">Conrado Almeida</a>"
+Pycharm,pycharm,pycharm-cheat.html,pycharm,"<a class=""text-primary"">Conrado Almeida</a>"
+Python,py,py-cheat.html,Python is na interpreted high-level general-purpose programming language,"<a class=""text-primary"">Conrado Almeida</a>"
+Markdown,mark,markdown-cheat.html,markdown,"<a class=""text-primary"">Conrado Almeida</a>"
