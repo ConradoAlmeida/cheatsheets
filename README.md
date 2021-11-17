@@ -20,9 +20,15 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 - [ ] Criar template para inserir novas linguagens
 - [ ] Criar variável que configure a cor dos cards
-- [ ] next
-- [ ] next
-- [ ] next
+- [ ] Criar sub-níveis para:
+  * Python
+    * [ ] Pandas
+    * [ ] Pyinstaller
+    * [ ] Plotly
+    * [ ] PyQt5 ou 6
+    * [ ] 
+- [ ] Adicionar versão da aplicação/linguagem (referente ao conteúdo postado)
+- [ ] Programar configuração para texto sem tabela (bloco de texto)
 
 ## 💻 Pré-requisitos
 
