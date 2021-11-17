@@ -1,5 +1,3 @@
----
----
 # ATENÇÃO: CONTEÚDO DO README EM DESENVOLVIMENTO
 # Cheat Sheets
 
