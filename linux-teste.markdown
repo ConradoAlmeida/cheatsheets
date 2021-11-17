@@ -1,0 +1,1 @@
+# Teste dentro do Vscode do Manjaro
