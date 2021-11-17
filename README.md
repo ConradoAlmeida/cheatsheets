@@ -17,11 +17,11 @@
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
-- [ ] Tarefa 1
-- [ ] Tarefa 2
-- [ ] Tarefa 3
-- [ ] Tarefa 4
-- [ ] Tarefa 5
+- [ ] Criar template para inserir novas linguagens
+- [ ] Criar variável que configure a cor dos cards
+- [ ] next
+- [ ] next
+- [ ] next
 
 ## 💻 Pré-requisitos
 
@@ -31,18 +31,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 * Você tem uma máquina `<Windows / Linux / Mac>`. Indique qual sistema operacional é compatível / não compatível.
 * Você leu `<guia / link / documentação_relacionada_ao_projeto>`.
 
-## 🚀 Instalando <nome_do_projeto>
 
-Para instalar o <nome_do_projeto>, siga estas etapas:
-
-Linux e macOS:
-```
-<comando_de_instalação>
-```
-
-Windows:
-```
-<comando_de_instalação>
 ```
 
 ## ☕ Usando <nome_do_projeto>
