@@ -29,6 +29,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
  2. Excel
     * [ ] Excel Shortcuts
     * [ ] VBA
+    * [ ] teste
 
 - [ ] Adicionar versão da aplicação/linguagem (referente ao conteúdo postado)
 - [ ] Programar configuração para texto sem tabela (bloco de texto)
