@@ -18,7 +18,7 @@
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
-- [x] Criar template para inserir novas linguagens
+- [ ] Criar template para inserir novas linguagens
 - [ ] Criar variável que configure a cor dos cards
 - [ ] Criar sub-níveis para:
  1. Python
