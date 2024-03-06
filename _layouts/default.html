@@ -1,8 +1,6 @@
 
 {% assign dados = site.data.store-data | group_by:"grupo"%}
- {% for dado in dados %}
- {{dado.grupo}}
- {% endfor %}
+
 
 <!doctype html>
 <html lang="en">
@@ -63,7 +61,12 @@
     
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">Home</a>
+    <a class="navbar-brand" href="index.html">Home
+     {% for dado in dados %}
+ {{dado.grupo}}
+ {% endfor %}
+    
+    </a>
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
