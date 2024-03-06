@@ -1,3 +1,9 @@
+
+{% assign dados = site.data.store-data | group_by:"grupo"%}
+ {% for dado in dados %}
+ {{dado.grupo}}
+ {{% endfor %}}
+
 <!doctype html>
 <html lang="en">
   <head>
