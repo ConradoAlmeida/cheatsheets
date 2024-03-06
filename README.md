@@ -33,6 +33,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 - [ ] Adicionar versão da aplicação/linguagem (referente ao conteúdo postado)
 - [ ] Programar configuração para texto sem tabela (bloco de texto)
+- [ ] Programar construir o menu automaticamente (de acordo com os itens existentes nos dados)
 
 ## 💻 Pré-requisitos
 
