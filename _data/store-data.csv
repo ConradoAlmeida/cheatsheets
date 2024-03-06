@@ -196,4 +196,4 @@ __Strong__,<strong>Strong</strong>,Emphasis,Markdown
 * * * or ***,<hr/>,Horizontal Rules,Markdown
 - - - or ---,<hr/>,Horizontal Rules,Markdown
 [Google](https://google.com/),"<a href=""https://google.com/"">Cheat Sheets</a>",Links,Markdown
-"[Google](https://google.com/ ""Search"")","<a href=""https://google.com/"" title=""Search"">Cheat Sheets</a>",Links,Markdown2
+"[Google](https://google.com/ ""Search"")","<a href=""https://google.com/"" title=""Search"">Cheat Sheets</a>",Links,Markdown
