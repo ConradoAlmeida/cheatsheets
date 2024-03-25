@@ -23,6 +23,7 @@ $ git add .,"Stafe all changed files, ready for commit",MAKE A CHANGE,Git/GitHub
 "$ git commit -am ""message""",Commit all your tracked files to versioned history,MAKE A CHANGE,Git/GitHub
 $ git reset [file],"Unstages files, keeping the file changes",MAKE A CHANGE,Git/GitHub
 $ git reset --hard,Revert everything the last commit,MAKE A CHANGE,Git/GitHub
+$ git commit -m,Commit all staged files,MAKE A CHANGE,Git/GitHub
 $ git fetch,Get the latest changes from origin (no merge),SYNCHRONIZE,Git/GitHub
 $ git pull,Fetch the latest changes from origin and merge,SYNCHRONIZE,Git/GitHub
 $ git pull --rebase,Fetch the latest changes from origin and rebase,SYNCHRONIZE,Git/GitHub
