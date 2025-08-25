@@ -20,6 +20,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 - [ ] Criar template para inserir novas linguagens
 - [ ] Criar variável que configure a cor dos cards
+- [ ] Criar para comandos Linux
 - [ ] Criar sub-níveis para:
  1. Python
     * [ ] Pandas
@@ -30,6 +31,13 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
     * [ ] Excel Shortcuts
     * [ ] VBA
     * [ ] teste
+ 3. Linux
+    * [ ] Universal
+    * [ ] Debian based
+    * [ ] Arch based
+    * [ ] Fedora based
+
+   
 
 - [ ] Adicionar versão da aplicação/linguagem (referente ao conteúdo postado)
 - [ ] Programar configuração para texto sem tabela (bloco de texto)
