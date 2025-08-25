@@ -11,17 +11,17 @@ $ git show [commit]:[file],Show the file changes for a commit id and/or file,OBS
 $ git log,Show full change history,OBSERVE YOUR REPOSITORY,Git/GitHub
 $ git log -p [file/directory],Show change history for file/directory,OBSERVE YOUR REPOSITORY,Git/GitHub
 $ git branch,List all local branches,WORKING WITH BRANCHES,Git/GitHub
-$ git branches -av,"List all branches, local and remote",WORKING WITH BRANCHES,Git/GitHub
+$ git branches -av,List all branches, local and remote,WORKING WITH BRANCHES,Git/GitHub
 $ git checkout my_branch,Switch to a branch and update,WORKING WITH BRANCHES,Git/GitHub
 $ git branch new_branch,Create a new branch called new_branch,WORKING WITH BRANCHES,Git/GitHub
 $ git branch -d new_branch,Delete the branch called my_branch,WORKING WITH BRANCHES,Git/GitHub
 $ git checkout branch_b,Merge branch_a into branch_b step1,WORKING WITH BRANCHES,Git/GitHub
 $ git merge branch_a,Merge branch_a into branch_b step2,WORKING WITH BRANCHES,Git/GitHub
 $ git tag my_tag,Tag the current commit,WORKING WITH BRANCHES,Git/GitHub
-$ git add [file],"Stages the file, ready for commit",MAKE A CHANGE,Git/GitHub
-$ git add .,"Stafe all changed files, ready for commit",MAKE A CHANGE,Git/GitHub
+$ git add [file],Stages the file, ready for commit,MAKE A CHANGE,Git/GitHub
+$ git add .,Stafe all changed files, ready for commit,MAKE A CHANGE,Git/GitHub
 $ git commit -am 'message',Commit all your tracked files to versioned history,MAKE A CHANGE,Git/GitHub
-$ git reset [file],"Unstages files, keeping the file changes",MAKE A CHANGE,Git/GitHub
+$ git reset [file],Unstages files, keeping the file changes,MAKE A CHANGE,Git/GitHub
 $ git reset --hard,Revert everything the last commit,MAKE A CHANGE,Git/GitHub
 $ git commit -m 'message',Commit all staged files,MAKE A CHANGE,Git/GitHub
 $ git fetch,Get the latest changes from origin (no merge),SYNCHRONIZE,Git/GitHub
@@ -32,7 +32,7 @@ Ctrl+Shift+P or F1,Show Command Palette,GENERAL,Visual Studio Code for Windows
 Ctrl+P,Quick Open and Go to File,GENERAL,Visual Studio Code for Windows
 Ctrl+Shift+N,New window/instance,GENERAL,Visual Studio Code for Windows
 Ctrl+Shift+W,Close window/instance,GENERAL,Visual Studio Code for Windows
-"Ctrl+,",User Settings,GENERAL,Visual Studio Code for Windows
+Ctrl+,,User Settings,GENERAL,Visual Studio Code for Windows
 Ctrl+K Ctrl+S,Keyboard Shortcuts,GENERAL,Visual Studio Code for Windows
 Ctrl+X, Cut line (empty selection),BASIC EDITING,Visual Studio Code for Windows
 Ctrl+C, Copy line (empty selection),BASIC EDITING,Visual Studio Code for Windows
@@ -88,7 +88,7 @@ Shift+Alt+ left, Shrink selection,Multi-cursor and selection,Visual Studio Code 
 Shift+Alt +(drag mouse),Column (box) selection,Multi-cursor and selection,Visual Studio Code for Windows
 Ctrl+Shift+Alt + (arrow key),Column (box) selection,Multi-cursor and selection,Visual Studio Code for Windows
 Ctrl+Shift+Alt+PgUp/PgDn,Column (box) selection page up/down,Multi-cursor and selection,Visual Studio Code for Windows
-"Ctrl+Space,Ctrl+I", Trigger suggestion,Rich languages editing,Visual Studio Code for Windows
+Ctrl+Space,Ctrl+I, Trigger suggestion,Rich languages editing,Visual Studio Code for Windows
 Ctrl+Shift+Space, Trigger parameter hints,Rich languages editing,Visual Studio Code for Windows
 Shift+Alt+F, Format document,Rich languages editing,Visual Studio Code for Windows
 Ctrl+K Ctrl+F, Format selection,Rich languages editing,Visual Studio Code for Windows
@@ -139,10 +139,10 @@ Shift+F12, Show References,Rich languages editing,Visual Studio Code for Windows
 F2, Rename Symbol,Rich languages editing,Visual Studio Code for Windows
 Ctrl+K Ctrl+X, Trim trailing whitespace,Rich languages editing,Visual Studio Code for Windows
 Ctrl+K M, Change file language,Rich languages editing,Visual Studio Code for Windows
-"Ctrl+F4, Ctrl+W", Close editor,EDITOR MANAGEMENT,Visual Studio Code for Windows
+Ctrl+F4, Ctrl+W, Close editor,EDITOR MANAGEMENT,Visual Studio Code for Windows
 Ctrl+K F, Close folder,EDITOR MANAGEMENT,Visual Studio Code for Windows
 Ctrl+\, Split editor,EDITOR MANAGEMENT,Visual Studio Code for Windows
-Ctrl+ 1 / 2 / 3," Focus into 1st,2nd or 3rd editor group",EDITOR MANAGEMENT,Visual Studio Code for Windows
+Ctrl+ 1 / 2 / 3, Focus into 1st,2nd or 3rd editor group,EDITOR MANAGEMENT,Visual Studio Code for Windows
 Ctrl+K Ctrl+ left / right, Focus into previous/next editor group,EDITOR MANAGEMENT,Visual Studio Code for Windows
 Ctrl+Shift+PgUp / PgDn, Move editor left/right,EDITOR MANAGEMENT,Visual Studio Code for Windows
 Ctrl+K left / right, Move active editor group,EDITOR MANAGEMENT,Visual Studio Code for Windows
@@ -235,5 +235,5 @@ __Strong__,<strong>Strong</strong>,Emphasis,Markdown
 **Super**Strong,<strong>Super</strong>Strong,Emphasis,Markdown
 * * * or ***,<hr/>,Horizontal Rules,Markdown
 - - - or ---,<hr/>,Horizontal Rules,Markdown
-[Google](https://google.com/),"<a href=""https://google.com/"">Cheat Sheets</a>",Links,Markdown
-"[Google](https://google.com/ ""Search"")","<a href=""https://google.com/"" title=""Search"">Cheat Sheets</a>",Links,Markdown
+[Google](https://google.com/),<a href="https://google.com/">Cheat Sheets</a>,Links,Markdown
+[Google](https://google.com/ "Search"),<a href="https://google.com/" title="Search">Cheat Sheets</a>,Links,Markdown
