@@ -226,7 +226,7 @@ Ctrl+Space,Invoke code completion,EDITING,Pycharm
 "**Super**Strong",<strong>Super</strong>Strong,Emphasis,Markdown
 "* * * or ***",<hr/>,Horizontal Rules,Markdown
 "[Google](https://google.com/)",<a href="https://google.com/">Cheat Sheets</a>,Links,Markdown
-"[Google](https://google.com/ \"Search\")",<a href="https://google.com/" title="Search">Cheat Sheets</a>,Links,Markdown
+"[Google](https://google.com/ 'Search')",<a href="https://google.com/" title="Search">Cheat Sheets</a>,Links,Markdown
 $ git ini2 [project name],From scratch --Create a new local repository,CREATE A REPOSITORY,Git/GitHub
 $ git clone my_url,Download from an existing repository,CREATE A REPOSITORY,Git/GitHub
 $ git status,List new or modified files not yes commited,OBSERVE YOUR REPOSITORY,Git/GitHub
