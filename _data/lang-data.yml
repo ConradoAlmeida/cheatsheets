@@ -62,8 +62,3 @@
       page: linux-fedora-cheat.html
       description: Commands specific for Fedora based systems.
       author: <a class="text-primary">Conrado Almeida</a>
-- lang-name: Pandas
-  lang-alias: pandas
-  page: pandas-cheat.html
-  description: Essential Pandas commands for data analysis.
-  author: <a class="text-primary">Conrado Almeida</a>
