@@ -221,5 +221,5 @@ df.to_csv('file.csv'),Write CSV,IO,Pandas
 *italic*,"<em>italic</em>",Emphasis,Markdown
 **bold**,"<strong>bold</strong>",Emphasis,Markdown
 ***,"<hr/>",Horizontal Rule,Markdown
-"[Google](https://google.com/)","<a href=""https://google.com/"">Google</a>",Links,Markdown
-"[Google](https://google.com/ \"Search\")","<a href=""https://google.com/"" title=""Search"">Google</a>",Links,Markdown
+[Google](https://google.com/),<a href='https://google.com/'>Google</a>,Links,Markdown
+[Google](https://google.com/ 'Search'),<a href='https://google.com/' title='Search'>Google</a>,Links,Markdown
