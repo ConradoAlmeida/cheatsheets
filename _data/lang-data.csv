@@ -1,8 +1,0 @@
-lang-name,lang-alias,page,description,author
-Git/GitHub,git,git-cheat.html,"Git & GitHub essentials","<a class=""text-primary"">Conrado Almeida</a>"
-Visual Studio Code,vscode,vscode-cheat.html,"VS Code productivity shortcuts","<a class=""text-primary"">Conrado Almeida</a>"
-Python,py,py-cheat.html,"Python is an interpreted high-level general-purpose programming language","<a class=""text-primary"">Conrado Almeida</a>"
-Markdown,mark,markdown-cheat.html,"Markdown syntax reference","<a class=""text-primary"">Conrado Almeida</a>"
-Docker,docker,docker-cheat.html,"Docker is a platform for developing, shipping and running applications in containers","<a class=""text-primary"">Conrado Almeida</a>"
-Linux Essentials,linux,linux-cheat.html,"Most used Linux commands for daily tasks","<a class=""text-primary"">Conrado Almeida</a>"
-Pandas,pandas,pandas-cheat.html,"Essential Pandas commands for data analysis","<a class=""text-primary"">Conrado Almeida</a>"
