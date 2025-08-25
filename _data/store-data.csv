@@ -94,6 +94,45 @@ Shift+Alt+F, Format document,Rich languages editing,Visual Studio Code for Windo
 Ctrl+K Ctrl+F, Format selection,Rich languages editing,Visual Studio Code for Windows
 F12, Go to Definition,Rich languages editing,Visual Studio Code for Windows
 Alt+F12, Peek Definition,Rich languages editing,Visual Studio Code for Windows
+python --version,Show Python version,General,Python
+python script.py,Run a Python script,General,Python
+pip install package,Install a package with pip,General,Python
+python -m venv venv,Create a virtual environment,Virtualenv,Python
+source venv/bin/activate,Activate virtual environment (Linux/Mac),Virtualenv,Python
+venv\Scripts\activate,Activate virtual environment (Windows),Virtualenv,Python
+pip freeze > requirements.txt,Export dependencies,Virtualenv,Python
+pip install -r requirements.txt,Install dependencies from file,Virtualenv,Python
+docker --version,Show Docker version,General,Docker
+docker ps,List running containers,Containers,Docker
+docker images,List images,Images,Docker
+docker run -it ubuntu bash,Run Ubuntu container interactively,Containers,Docker
+docker build -t myimage .,Build image from Dockerfile,Images,Docker
+docker stop container_id,Stop a running container,Containers,Docker
+docker rm container_id,Remove a container,Containers,Docker
+docker rmi image_id,Remove an image,Images,Docker
+ls,List files and directories,Navigation,Linux
+cd directory,Change directory,Navigation,Linux
+pwd,Show current directory,Navigation,Linux
+cp source dest,Copy files or directories,Files,Linux
+mv source dest,Move or rename files or directories,Files,Linux
+rm file,Remove file,Files,Linux
+rm -r directory,Remove directory recursively,Files,Linux
+cat file,Show file content,Files,Linux
+grep 'text' file,Search for text in file,Files,Linux
+chmod +x file,Make file executable,Permissions,Linux
+sudo command,Run command as superuser,Permissions,Linux
+top,Show running processes,System,Linux
+ps aux,Show all processes,System,Linux
+kill pid,Kill process by PID,System,Linux
+import pandas as pd,Import Pandas library,General,Pandas
+df = pd.read_csv('file.csv'),Read CSV file,General,Pandas
+df.head(),Show first 5 rows,General,Pandas
+df.info(),Show DataFrame info,General,Pandas
+df.describe(),Show statistics,General,Pandas
+df['col'],Select column,Selection,Pandas
+df[['col1','col2']],Select multiple columns,Selection,Pandas
+df[df['col'] > 0],Filter rows by condition,Selection,Pandas
+df.to_csv('file.csv'),Save DataFrame to CSV,Export,Pandas
 Ctrl+K F12, Open Definition to the side,Rich languages editing,Visual Studio Code for Windows
 Ctrl+., Quick Fix,Rich languages editing,Visual Studio Code for Windows
 Shift+F12, Show References,Rich languages editing,Visual Studio Code for Windows
