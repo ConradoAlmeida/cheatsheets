@@ -215,10 +215,10 @@ Ctrl+Space,Invoke code completion,EDITING,Pycharm
 #### Content,<h4>Content</h4>,Headers,Markdown
 ##### Content,<h5>Content</h5>,Headers,Markdown
 ##### Content,<h6>Content</h6>,Headers,Markdown
-"- First item<br>- Second item<br>- N item<br>",<ul><li>First item</li><li>Second item</li><li>N item</li></ul>,Lists,Markdown
- "- First item<br>- Second item<br>- N item<br>",<ul><li>First item</li><li>Second item</li><li>N item</li></ul>,Lists,Markdown
- "- First item<br>&emsp;- Indented item<br>",<ul><li>First item</li><ul><li>Indented item</li></ul><li>N item</li></ul>,Lists,Markdown
- "- Second item<br>",<ul><li>First item</li><ul><li>Indented item</li></ul><li>N item</li></ul>,Lists,Markdown
+"- First item<br>- Second item<br>- N item<br>","<ul><li>First item</li><li>Second item</li><li>N item</li></ul>",Lists,Markdown
+"- First item<br>- Second item<br>- N item<br>","<ul><li>First item</li><li>Second item</li><li>N item</li></ul>",Lists,Markdown
+"- First item<br>&emsp;- Indented item<br>","<ul><li>First item</li><ul><li>Indented item</li></ul><li>N item</li></ul>",Lists,Markdown
+"- Second item<br>","<ul><li>First item</li><ul><li>Indented item</li></ul><li>N item</li></ul>",Lists,Markdown
 *Italic text*,<em>Italic text</em>,Emphasis,Markdown
 _Italic text_,<em>Italic text</em>,Emphasis,Markdown
 **Strong**,<strong>Strong</strong>,Emphasis,Markdown
