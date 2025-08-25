@@ -76,9 +76,23 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         {% for lang in site.data.lang-data %}
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="{{ lang.page }}">{{ lang['lang-name'] }}</a>
-        </li>
+          {% if lang.children %}
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="{{ lang.page }}" id="navbarDropdown-{{ lang.lang-alias }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                {{ lang['lang-name'] }}
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown-{{ lang.lang-alias }}">
+                <li><a class="dropdown-item" href="{{ lang.page }}">{{ lang['lang-name'] }} (principal)</a></li>
+                {% for child in lang.children %}
+                  <li><a class="dropdown-item" href="{{ child.page }}">{{ child['lang-name'] }}</a></li>
+                {% endfor %}
+              </ul>
+            </li>
+          {% else %}
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="{{ lang.page }}">{{ lang['lang-name'] }}</a>
+            </li>
+          {% endif %}
         {% endfor %}
       </ul>
 

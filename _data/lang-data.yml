@@ -8,16 +8,22 @@
   page: vscode-cheat.html
   description: vscode
   author: <a class="text-primary">Conrado Almeida</a>
-- lang-name: Pycharm
-  lang-alias: pycharm
-  page: pycharm-cheat.html
-  description: pycharm
-  author: <a class="text-primary">Conrado Almeida</a>
 - lang-name: Python
   lang-alias: py
   page: py-cheat.html
   description: Python is an interpreted high-level general-purpose programming language
   author: <a class="text-primary">Conrado Almeida</a>
+  children:
+    - lang-name: Pandas
+      lang-alias: pandas
+      page: pandas-cheat.html
+      description: Essential Pandas commands for data analysis.
+      author: <a class="text-primary">Conrado Almeida</a>
+    - lang-name: Pipenv
+      lang-alias: pipenv
+      page: pipenv-cheat.html
+      description: Pipenv for Python dependency management and virtualenvs.
+      author: <a class="text-primary">Conrado Almeida</a>
 - lang-name: Markdown
   lang-alias: mark
   page: markdown-cheat.html
@@ -26,13 +32,36 @@
 - lang-name: Docker
   lang-alias: docker
   page: docker-cheat.html
-  description: Docker is a platform for developing, shipping, and running applications in containers.
+  description: >
+    Docker is a platform for developing, shipping, and running applications in containers. Includes <a href="https://docs.docker.com/compose/" target="_blank">Docker Compose</a> for multi-container apps.
   author: <a class="text-primary">Conrado Almeida</a>
+  children:
+    - lang-name: Docker Compose
+      lang-alias: compose
+      page: docker-compose-cheat.html
+      description: Docker Compose for defining and running multi-container Docker applications.
+      author: <a class="text-primary">Conrado Almeida</a>
 - lang-name: Linux Essentials
   lang-alias: linux
   page: linux-cheat.html
   description: Most used Linux commands for daily tasks.
   author: <a class="text-primary">Conrado Almeida</a>
+  children:
+    - lang-name: Debian Based
+      lang-alias: debian
+      page: linux-debian-cheat.html
+      description: Commands specific for Debian and Ubuntu based systems.
+      author: <a class="text-primary">Conrado Almeida</a>
+    - lang-name: Arch Based
+      lang-alias: arch
+      page: linux-arch-cheat.html
+      description: Commands specific for Arch Linux based systems.
+      author: <a class="text-primary">Conrado Almeida</a>
+    - lang-name: Fedora Based
+      lang-alias: fedora
+      page: linux-fedora-cheat.html
+      description: Commands specific for Fedora based systems.
+      author: <a class="text-primary">Conrado Almeida</a>
 - lang-name: Pandas
   lang-alias: pandas
   page: pandas-cheat.html

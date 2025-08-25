@@ -1,3 +1,31 @@
+pipenv --version,Show Pipenv version,General,Pipenv
+pipenv install,Install all dependencies from Pipfile,General,Pipenv
+pipenv install package,Install a package and add to Pipfile,General,Pipenv
+pipenv shell,Activate virtual environment,General,Pipenv
+pipenv run python script.py,Run a script inside the Pipenv environment,General,Pipenv
+pipenv uninstall package,Uninstall a package,General,Pipenv
+pipenv lock,Generate Pipfile.lock,General,Pipenv
+docker-compose --version,Show Docker Compose version,General,Docker Compose
+docker-compose up,Start all services defined in docker-compose.yml,General,Docker Compose
+docker-compose up -d,Start services in detached mode,General,Docker Compose
+docker-compose down,Stop and remove containers,General,Docker Compose
+docker-compose build,Build or rebuild services,General,Docker Compose
+docker-compose logs,View output from containers,General,Docker Compose
+sudo apt update,Update package lists,Debian,Debian
+sudo apt upgrade,Upgrade all packages,Debian,Debian
+sudo apt install package,Install a package,Debian,Debian
+sudo apt remove package,Remove a package,Debian,Debian
+sudo apt search package,Search for a package,Debian,Debian
+sudo pacman -Syu,Update all packages,Arch,Arch
+sudo pacman -S package,Install a package,Arch,Arch
+sudo pacman -R package,Remove a package,Arch,Arch
+sudo pacman -Ss keyword,Search for a package,Arch,Arch
+sudo pacman -Qi package,Show package info,Arch,Arch
+sudo dnf update,Update all packages,Fedora,Fedora
+sudo dnf install package,Install a package,Fedora,Fedora
+sudo dnf remove package,Remove a package,Fedora,Fedora
+sudo dnf search package,Search for a package,Fedora,Fedora
+sudo dnf info package,Show package info,Fedora,Fedora
 comandos,descricao,categoria,grupo
 $ git ini2 [project name],From scratch --Create a new local repository,CREATE A REPOSITORY,Git/GitHub
 $ git clone my_url,Download from an existing repository,CREATE A REPOSITORY,Git/GitHub

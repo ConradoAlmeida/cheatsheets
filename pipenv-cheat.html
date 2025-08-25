@@ -1,0 +1,47 @@
+---
+layout: default
+lang-alias: pipenv
+data: August 25, 2025
+author: Conrado Almeida
+---
+
+{% assign datalang = site.data.lang-data | where:"lang-alias",page.lang-alias %}
+{% assign datalang = datalang[0] %}
+
+<div class="col-md-12">
+  <h2 class="blog-post-title">{{datalang.lang-name}}</h2>
+  <p class="blog-post-meta">{{ page.last_modified_at | default: site.time | date: "%B %d, %Y" }} by <strong>{{datalang.author}}</strong></p>
+  <p>{{datalang.description}}</p>
+  <hr>
+</div>
+
+{% assign dados = site.data.store-data | where:"grupo","Pipenv" %}
+{% assign dados2 = dados | group_by:"categoria" %}
+
+<div class="col-md-12">
+  <div class="row" data-masonry="{&quot;percentPosition&quot;: true }">
+    {% for dado in dados2 %}
+    <div class="col-sm-6 col-lg-6 mb-2">
+      <div class="card">
+        <div class="card-body">
+          <article class="blog-post">
+            <table class="table table-striped table-sm">
+              <thead>
+                <tr>
+                  <th class="h5 text-secondary text-uppercase" scope="col" colspan="2">{{ dado.name }}</th>
+                </tr>
+              </thead>
+              {% for item in dado.items %}
+              <tr>
+                <th scope="row">{{ item.comandos }}</th>
+                <td>{{ item.descricao }}</td>
+              </tr>
+              {% endfor %}
+            </table>
+          </article>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
