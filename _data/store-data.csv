@@ -1,5 +1,5 @@
 comandos,descricao,categoria,grupo
-$ git ini [project name],From scratch --Create a new local repository,CREATE A REPOSITORY,Git/GitHub
+$ git ini2 [project name],From scratch --Create a new local repository,CREATE A REPOSITORY,Git/GitHub
 $ git clone my_url,Download from an existing repository,CREATE A REPOSITORY,Git/GitHub
 $ git status,List new or modified files not yes commited,OBSERVE YOUR REPOSITORY,Git/GitHub
 $ git diff,Show the changes to files not yes staged,OBSERVE YOUR REPOSITORY,Git/GitHub
