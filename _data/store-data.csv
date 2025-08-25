@@ -218,9 +218,7 @@ Ctrl+Space,Invoke code completion,EDITING,Pycharm
 "- First item<br>
 - Second item<br>
 - N item<br>",<ul><li>First item</li><li>Second item</li><li>N item</li></ul>,Lists,Markdown
-". First item<br>
-. Second item<br>
-. N item<br>",<ul><li>First item</li><li>Second item</li><li>N item</li></ul>,Lists,Markdown
+"- First item<br>- Second item<br>- N item<br>",<ul><li>First item</li><li>Second item</li><li>N item</li></ul>,Lists,Markdown
 "+ First item<br>
 + Second item<br>
 + N item<br>",<ul><li>First item</li><li>Second item</li><li>N item</li></ul>,Lists,Markdown
