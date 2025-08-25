@@ -1,0 +1,40 @@
+- lang-name: Git/GitHub
+  lang-alias: git
+  page: git-cheat.html
+  description: github description
+  author: <a class="text-primary">Conrado Almeida</a>
+- lang-name: Visual Studio Code
+  lang-alias: vscode
+  page: vscode-cheat.html
+  description: vscode
+  author: <a class="text-primary">Conrado Almeida</a>
+- lang-name: Pycharm
+  lang-alias: pycharm
+  page: pycharm-cheat.html
+  description: pycharm
+  author: <a class="text-primary">Conrado Almeida</a>
+- lang-name: Python
+  lang-alias: py
+  page: py-cheat.html
+  description: Python is an interpreted high-level general-purpose programming language
+  author: <a class="text-primary">Conrado Almeida</a>
+- lang-name: Markdown
+  lang-alias: mark
+  page: markdown-cheat.html
+  description: markdown
+  author: <a class="text-primary">Conrado Almeida</a>
+- lang-name: Docker
+  lang-alias: docker
+  page: docker-cheat.html
+  description: Docker is a platform for developing, shipping, and running applications in containers.
+  author: <a class="text-primary">Conrado Almeida</a>
+- lang-name: Linux Essentials
+  lang-alias: linux
+  page: linux-cheat.html
+  description: Most used Linux commands for daily tasks.
+  author: <a class="text-primary">Conrado Almeida</a>
+- lang-name: Pandas
+  lang-alias: pandas
+  page: pandas-cheat.html
+  description: Essential Pandas commands for data analysis.
+  author: <a class="text-primary">Conrado Almeida</a>

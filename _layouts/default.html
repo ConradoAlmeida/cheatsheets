@@ -1,5 +1,5 @@
 
-{% assign dados = site.data.store-data |"grupo" %}
+
 
 
 <!doctype html>
@@ -75,30 +75,11 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
+        {% for lang in site.data.lang-data %}
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="git-cheat.html">Git/GitHub</a>
+          <a class="nav-link active" aria-current="page" href="{{ lang.page }}">{{ lang['lang-name'] }}</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="vscode-cheat.html">Visual Studio Code</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="pycharm-cheat.html">Pycharm</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="markdown-cheat.html">Markdown</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="py-cheat.html">Python</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="pandas-cheat.html">Pandas</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="docker-cheat.html">Docker</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="linux-cheat.html">Linux Essentials</a>
-        </li>
+        {% endfor %}
       </ul>
 
     </div>

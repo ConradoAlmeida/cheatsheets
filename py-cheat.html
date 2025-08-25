@@ -16,7 +16,7 @@ author: Conrado Almeida
 
 
           <h2 class="blog-post-title">{{datalang.lang-name}}</h2>
-        <p class="blog-post-meta">{{page.data}} by <strong>{{datalang.author}}</strong></p>
+  <p class="blog-post-meta">{{ page.last_modified_at | default: site.time | date: "%B %d, %Y" }} by <strong>{{datalang.author}}</strong></p>
     
          <p>{{datalang.description}}</p>
     
