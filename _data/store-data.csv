@@ -213,13 +213,3 @@ df['col'],Select column,Select,Pandas
 df[['col1','col2']],Select columns,Select,Pandas
 df[df['col']>0],Filter rows,Select,Pandas
 df.to_csv('file.csv'),Write CSV,IO,Pandas
-# -------------------- Markdown --------------------,,,
-# Heading 1,"<h1>Heading 1</h1>",Headers,Markdown
-## Heading 2,"<h2>Heading 2</h2>",Headers,Markdown
-"- item 1\n- item 2","<ul><li>item 1</li><li>item 2</li></ul>",Lists,Markdown
-"- item 1\n  - sub","Nested list",Lists,Markdown
-*italic*,"<em>italic</em>",Emphasis,Markdown
-**bold**,"<strong>bold</strong>",Emphasis,Markdown
-***,"<hr/>",Horizontal Rule,Markdown
-[Google](https://google.com/),<a href='https://google.com/'>Google</a>,Links,Markdown
-[Google](https://google.com/ 'Search'),<a href='https://google.com/' title='Search'>Google</a>,Links,Markdown

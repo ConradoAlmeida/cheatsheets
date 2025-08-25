@@ -24,11 +24,6 @@
       page: pipenv-cheat.html
       description: Pipenv for Python dependency management and virtualenvs.
       author: <a class="text-primary">Conrado Almeida</a>
-- lang-name: Markdown
-  lang-alias: mark
-  page: markdown-cheat.html
-  description: markdown
-  author: <a class="text-primary">Conrado Almeida</a>
 - lang-name: Docker
   lang-alias: docker
   page: docker-cheat.html
