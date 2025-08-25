@@ -1,32 +1,232 @@
-pipenv --version,Show Pipenv version,General,Pipenv
-pipenv install,Install all dependencies from Pipfile,General,Pipenv
-pipenv install package,Install a package and add to Pipfile,General,Pipenv
-pipenv shell,Activate virtual environment,General,Pipenv
-pipenv run python script.py,Run a script inside the Pipenv environment,General,Pipenv
-pipenv uninstall package,Uninstall a package,General,Pipenv
-pipenv lock,Generate Pipfile.lock,General,Pipenv
-docker-compose --version,Show Docker Compose version,General,Docker Compose
-docker-compose up,Start all services defined in docker-compose.yml,General,Docker Compose
-docker-compose up -d,Start services in detached mode,General,Docker Compose
-docker-compose down,Stop and remove containers,General,Docker Compose
-docker-compose build,Build or rebuild services,General,Docker Compose
-docker-compose logs,View output from containers,General,Docker Compose
-sudo apt update,Update package lists,Debian,Debian
-sudo apt upgrade,Upgrade all packages,Debian,Debian
-sudo apt install package,Install a package,Debian,Debian
-sudo apt remove package,Remove a package,Debian,Debian
-sudo apt search package,Search for a package,Debian,Debian
-sudo pacman -Syu,Update all packages,Arch,Arch
-sudo pacman -S package,Install a package,Arch,Arch
-sudo pacman -R package,Remove a package,Arch,Arch
-sudo pacman -Ss keyword,Search for a package,Arch,Arch
-sudo pacman -Qi package,Show package info,Arch,Arch
-sudo dnf update,Update all packages,Fedora,Fedora
-sudo dnf install package,Install a package,Fedora,Fedora
-sudo dnf remove package,Remove a package,Fedora,Fedora
-sudo dnf search package,Search for a package,Fedora,Fedora
-sudo dnf info package,Show package info,Fedora,Fedora
-comandos,descricao,categoria,grupo
+$ git ini2 [project name],From scratch --Create a new local repository,CREATE A REPOSITORY,Git/GitHub
+$ git clone my_url,Download from an existing repository,CREATE A REPOSITORY,Git/GitHub
+$ git status,List new or modified files not yes commited,OBSERVE YOUR REPOSITORY,Git/GitHub
+$ git diff,Show the changes to files not yes staged,OBSERVE YOUR REPOSITORY,Git/GitHub
+$ git diff --cached,Show changes to staged files,OBSERVE YOUR REPOSITORY,Git/GitHub
+$ git diff HEAD,Show all staged and unstaged files changes,OBSERVE YOUR REPOSITORY,Git/GitHub
+$ git diff commit1 commit2,Show the changes between two commits ids,OBSERVE YOUR REPOSITORY,Git/GitHub
+$ git blame [file],List the change dates and authors for a file,OBSERVE YOUR REPOSITORY,Git/GitHub
+$ git show [commit]:[file],Show the file changes for a commit id and/or file,OBSERVE YOUR REPOSITORY,Git/GitHub
+$ git log,Show full change history,OBSERVE YOUR REPOSITORY,Git/GitHub
+$ git log -p [file/directory],Show change history for file/directory,OBSERVE YOUR REPOSITORY,Git/GitHub
+$ git branch,List all local branches,WORKING WITH BRANCHES,Git/GitHub
+$ git branches -av,List all branches, local and remote,WORKING WITH BRANCHES,Git/GitHub
+$ git checkout my_branch,Switch to a branch and update,WORKING WITH BRANCHES,Git/GitHub
+$ git branch new_branch,Create a new branch called new_branch,WORKING WITH BRANCHES,Git/GitHub
+$ git branch -d new_branch,Delete the branch called my_branch,WORKING WITH BRANCHES,Git/GitHub
+$ git checkout branch_b,Merge branch_a into branch_b step1,WORKING WITH BRANCHES,Git/GitHub
+$ git merge branch_a,Merge branch_a into branch_b step2,WORKING WITH BRANCHES,Git/GitHub
+$ git tag my_tag,Tag the current commit,WORKING WITH BRANCHES,Git/GitHub
+$ git add [file],Stages the file, ready for commit,MAKE A CHANGE,Git/GitHub
+$ git add .,Stafe all changed files, ready for commit,MAKE A CHANGE,Git/GitHub
+$ git commit -am 'message',Commit all your tracked files to versioned history,MAKE A CHANGE,Git/GitHub
+$ git reset [file],Unstages files, keeping the file changes,MAKE A CHANGE,Git/GitHub
+$ git reset --hard,Revert everything the last commit,MAKE A CHANGE,Git/GitHub
+$ git commit -m 'message',Commit all staged files,MAKE A CHANGE,Git/GitHub
+$ git fetch,Get the latest changes from origin (no merge),SYNCHRONIZE,Git/GitHub
+$ git pull,Fetch the latest changes from origin and merge,SYNCHRONIZE,Git/GitHub
+$ git pull --rebase,Fetch the latest changes from origin and rebase,SYNCHRONIZE,Git/GitHub
+$ git push,Push local changes to the origin,SYNCHRONIZE,Git/GitHub
+Ctrl+Shift+P or F1,Show Command Palette,GENERAL,Visual Studio Code for Windows
+Ctrl+P,Quick Open and Go to File,GENERAL,Visual Studio Code for Windows
+Ctrl+Shift+N,New window/instance,GENERAL,Visual Studio Code for Windows
+Ctrl+Shift+W,Close window/instance,GENERAL,Visual Studio Code for Windows
+Ctrl+,,User Settings,GENERAL,Visual Studio Code for Windows
+Ctrl+K Ctrl+S,Keyboard Shortcuts,GENERAL,Visual Studio Code for Windows
+Ctrl+X, Cut line (empty selection),BASIC EDITING,Visual Studio Code for Windows
+Ctrl+C, Copy line (empty selection),BASIC EDITING,Visual Studio Code for Windows
+Alt+ up / down, Move line up/down,BASIC EDITING,Visual Studio Code for Windows
+Shift+Alt + up / down, Copy line up/down,BASIC EDITING,Visual Studio Code for Windows
+Ctrl+Shift+K, Delete line,BASIC EDITING,Visual Studio Code for Windows
+Ctrl+Enter, Insert line below,BASIC EDITING,Visual Studio Code for Windows
+Ctrl+Shift+Enter, Insert line above,BASIC EDITING,Visual Studio Code for Windows
+Ctrl+Shift+\, Jump to matching bracket,BASIC EDITING,Visual Studio Code for Windows
+Ctrl+] / [ ,Indent/outdent line,BASIC EDITING,Visual Studio Code for Windows
+Home / End, Go to beginning/end of line,BASIC EDITING,Visual Studio Code for Windows
+Ctrl+Home, Go to beginning of file,BASIC EDITING,Visual Studio Code for Windows
+Ctrl+End, Go to end of file,BASIC EDITING,Visual Studio Code for Windows
+Ctrl+ up / down, Scroll line up/down,BASIC EDITING,Visual Studio Code for Windows
+Alt+PgUp / PgDn, Scroll page up/down,BASIC EDITING,Visual Studio Code for Windows
+Ctrl+Shift+[, Fold (collapse) region,BASIC EDITING,Visual Studio Code for Windows
+Ctrl+Shift+], Unfold (uncollapse) region,BASIC EDITING,Visual Studio Code for Windows
+Ctrl+K Ctrl+[, Fold (collapse) all subregions,BASIC EDITING,Visual Studio Code for Windows
+Ctrl+K Ctrl+], Unfold (uncollapse) all subregions,BASIC EDITING,Visual Studio Code for Windows
+Ctrl+K Ctrl+0, Fold (collapse) all regions,BASIC EDITING,Visual Studio Code for Windows
+Ctrl+K Ctrl+J, Unfold (uncollapse) all regions,BASIC EDITING,Visual Studio Code for Windows
+Ctrl+K Ctrl+C, Add line comment,BASIC EDITING,Visual Studio Code for Windows
+Ctrl+K Ctrl+U, Remove line comment,BASIC EDITING,Visual Studio Code for Windows
+Ctrl+/, Toggle line comment,BASIC EDITING,Visual Studio Code for Windows
+Shift+Alt+A, Toggle block comment,BASIC EDITING,Visual Studio Code for Windows
+Alt+Z, Toggle word wrap,BASIC EDITING,Visual Studio Code for Windows
+Ctrl+T, Show all Symbols,NAVIGATION,Visual Studio Code for Windows
+Ctrl+G, Go to Line...,NAVIGATION,Visual Studio Code for Windows
+Ctrl+P, Go to File...,NAVIGATION,Visual Studio Code for Windows
+Ctrl+Shift+O, Go to Symbol...,NAVIGATION,Visual Studio Code for Windows
+Ctrl+Shift+M, Show Problems panel,NAVIGATION,Visual Studio Code for Windows
+F8, Go to next error or warning,NAVIGATION,Visual Studio Code for Windows
+Shift+F8, Go to previous error or warning,NAVIGATION,Visual Studio Code for Windows
+Ctrl+Shift+Tab, Navigate editor group history,NAVIGATION,Visual Studio Code for Windows
+Alt+ left / right, Go back / forward,NAVIGATION,Visual Studio Code for Windows
+Ctrl+M, Toggle Tab moves focus,NAVIGATION,Visual Studio Code for Windows
+Ctrl+F, Find,SEARCH AND REPLACE,Visual Studio Code for Windows
+Ctrl+H, Replace,SEARCH AND REPLACE,Visual Studio Code for Windows
+F3 / Shift+F3, Find next/previous,SEARCH AND REPLACE,Visual Studio Code for Windows
+Alt+Enter, Select all occurences of Find match,SEARCH AND REPLACE,Visual Studio Code for Windows
+Ctrl+D, Add selection to next Find match,SEARCH AND REPLACE,Visual Studio Code for Windows
+Ctrl+K Ctrl+D, Move last selection to next Find match,SEARCH AND REPLACE,Visual Studio Code for Windows
+Alt+C / R / W ,Toggle case-sensitive / regex / whole word,SEARCH AND REPLACE,Visual Studio Code for Windows
+Alt+Click, Insert cursor,Multi-cursor and selection,Visual Studio Code for Windows
+Ctrl+Alt+ up / down, Insert cursor above / below,Multi-cursor and selection,Visual Studio Code for Windows
+Ctrl+U, Undo last cursor operation,Multi-cursor and selection,Visual Studio Code for Windows
+Shift+Alt+I, Insert cursor at end of each line selected,Multi-cursor and selection,Visual Studio Code for Windows
+Ctrl+L, Select current line,Multi-cursor and selection,Visual Studio Code for Windows
+Ctrl+Shift+L, Select all occurrences of current selection,Multi-cursor and selection,Visual Studio Code for Windows
+Ctrl+F2, Select all occurrences of current word,Multi-cursor and selection,Visual Studio Code for Windows
+Shift+Alt+ right, Expand selection,Multi-cursor and selection,Visual Studio Code for Windows
+Shift+Alt+ left, Shrink selection,Multi-cursor and selection,Visual Studio Code for Windows
+Shift+Alt +(drag mouse),Column (box) selection,Multi-cursor and selection,Visual Studio Code for Windows
+Ctrl+Shift+Alt + (arrow key),Column (box) selection,Multi-cursor and selection,Visual Studio Code for Windows
+Ctrl+Shift+Alt+PgUp/PgDn,Column (box) selection page up/down,Multi-cursor and selection,Visual Studio Code for Windows
+Ctrl+Space,Ctrl+I, Trigger suggestion,Rich languages editing,Visual Studio Code for Windows
+Ctrl+Shift+Space, Trigger parameter hints,Rich languages editing,Visual Studio Code for Windows
+Shift+Alt+F, Format document,Rich languages editing,Visual Studio Code for Windows
+Ctrl+K Ctrl+F, Format selection,Rich languages editing,Visual Studio Code for Windows
+F12, Go to Definition,Rich languages editing,Visual Studio Code for Windows
+Alt+F12, Peek Definition,Rich languages editing,Visual Studio Code for Windows
+python --version,Show Python version,General,Python
+python script.py,Run a Python script,General,Python
+pip install package,Install a package with pip,General,Python
+python -m venv venv,Create a virtual environment,Virtualenv,Python
+source venv/bin/activate,Activate virtual environment (Linux/Mac),Virtualenv,Python
+venv\Scripts\activate,Activate virtual environment (Windows),Virtualenv,Python
+pip freeze > requirements.txt,Export dependencies,Virtualenv,Python
+pip install -r requirements.txt,Install dependencies from file,Virtualenv,Python
+docker --version,Show Docker version,General,Docker
+docker ps,List running containers,Containers,Docker
+docker images,List images,Images,Docker
+docker run -it ubuntu bash,Run Ubuntu container interactively,Containers,Docker
+docker build -t myimage .,Build image from Dockerfile,Images,Docker
+docker stop container_id,Stop a running container,Containers,Docker
+docker rm container_id,Remove a container,Containers,Docker
+docker rmi image_id,Remove an image,Images,Docker
+ls,List files and directories,Navigation,Linux
+cd directory,Change directory,Navigation,Linux
+pwd,Show current directory,Navigation,Linux
+cp source dest,Copy files or directories,Files,Linux
+mv source dest,Move or rename files or directories,Files,Linux
+rm file,Remove file,Files,Linux
+rm -r directory,Remove directory recursively,Files,Linux
+cat file,Show file content,Files,Linux
+grep 'text' file,Search for text in file,Files,Linux
+chmod +x file,Make file executable,Permissions,Linux
+sudo command,Run command as superuser,Permissions,Linux
+top,Show running processes,System,Linux
+ps aux,Show all processes,System,Linux
+kill pid,Kill process by PID,System,Linux
+import pandas as pd,Import Pandas library,General,Pandas
+df = pd.read_csv('file.csv'),Read CSV file,General,Pandas
+df.head(),Show first 5 rows,General,Pandas
+df.info(),Show DataFrame info,General,Pandas
+df.describe(),Show statistics,General,Pandas
+df['col'],Select column,Selection,Pandas
+df[['col1','col2']],Select multiple columns,Selection,Pandas
+df[df['col'] > 0],Filter rows by condition,Selection,Pandas
+df.to_csv('file.csv'),Save DataFrame to CSV,Export,Pandas
+Ctrl+K F12, Open Definition to the side,Rich languages editing,Visual Studio Code for Windows
+Ctrl+., Quick Fix,Rich languages editing,Visual Studio Code for Windows
+Shift+F12, Show References,Rich languages editing,Visual Studio Code for Windows
+F2, Rename Symbol,Rich languages editing,Visual Studio Code for Windows
+Ctrl+K Ctrl+X, Trim trailing whitespace,Rich languages editing,Visual Studio Code for Windows
+Ctrl+K M, Change file language,Rich languages editing,Visual Studio Code for Windows
+Ctrl+F4, Ctrl+W, Close editor,EDITOR MANAGEMENT,Visual Studio Code for Windows
+Ctrl+K F, Close folder,EDITOR MANAGEMENT,Visual Studio Code for Windows
+Ctrl+\, Split editor,EDITOR MANAGEMENT,Visual Studio Code for Windows
+Ctrl+ 1 / 2 / 3, Focus into 1st,2nd or 3rd editor group,EDITOR MANAGEMENT,Visual Studio Code for Windows
+Ctrl+K Ctrl+ left / right, Focus into previous/next editor group,EDITOR MANAGEMENT,Visual Studio Code for Windows
+Ctrl+Shift+PgUp / PgDn, Move editor left/right,EDITOR MANAGEMENT,Visual Studio Code for Windows
+Ctrl+K left / right, Move active editor group,EDITOR MANAGEMENT,Visual Studio Code for Windows
+Ctrl+N, New File,FILE MANAGEMENT,Visual Studio Code for Windows
+Ctrl+O, Open File...,FILE MANAGEMENT,Visual Studio Code for Windows
+Ctrl+S, Save,FILE MANAGEMENT,Visual Studio Code for Windows
+Ctrl+Shift+S, Save As...,FILE MANAGEMENT,Visual Studio Code for Windows
+Ctrl+K S, Save All,FILE MANAGEMENT,Visual Studio Code for Windows
+Ctrl+F4, Close,FILE MANAGEMENT,Visual Studio Code for Windows
+Ctrl+K Ctrl+W, Close All,FILE MANAGEMENT,Visual Studio Code for Windows
+Ctrl+Shift+T ,Reopen closed editor,FILE MANAGEMENT,Visual Studio Code for Windows
+Ctrl+K Enter ,Keep preview mode editor open,FILE MANAGEMENT,Visual Studio Code for Windows
+Ctrl+Tab ,Open next,FILE MANAGEMENT,Visual Studio Code for Windows
+Ctrl+Shift+Tab, Open previous,FILE MANAGEMENT,Visual Studio Code for Windows
+Ctrl+K P ,Copy path of active file,FILE MANAGEMENT,Visual Studio Code for Windows
+Ctrl+K R ,Reveal active file in Explorer,FILE MANAGEMENT,Visual Studio Code for Windows
+Ctrl+K O ,Show active file in new window/instance,FILE MANAGEMENT,Visual Studio Code for Windows
+F11 ,Toggle full screen,DISPLAY,Visual Studio Code for Windows
+Shift+Alt+0 ,Toggle editor layout (horizontal/vertical),DISPLAY,Visual Studio Code for Windows
+Ctrl+ = / - ,Zoom in/out,DISPLAY,Visual Studio Code for Windows
+Ctrl+B Toggle, Sidebar visibility,DISPLAY,Visual Studio Code for Windows
+Ctrl+Shift+E ,Show Explorer / Toggle focus,DISPLAY,Visual Studio Code for Windows
+Ctrl+Shift+F ,Show Search,DISPLAY,Visual Studio Code for Windows
+Ctrl+Shift+G ,Show Source Control,DISPLAY,Visual Studio Code for Windows
+Ctrl+Shift+D ,Show Debug,DISPLAY,Visual Studio Code for Windows
+Ctrl+Shift+X ,Show Extensions,DISPLAY,Visual Studio Code for Windows
+Ctrl+Shift+H ,Replace in files,DISPLAY,Visual Studio Code for Windows
+Ctrl+Shift+J ,Toggle Search details,DISPLAY,Visual Studio Code for Windows
+Ctrl+Shift+U ,Show Output panel,DISPLAY,Visual Studio Code for Windows
+Ctrl+Shift+V ,Open Markdown preview,DISPLAY,Visual Studio Code for Windows
+Ctrl+K V ,Open Markdown preview to the side,DISPLAY,Visual Studio Code for Windows
+Ctrl+K Z ,Zen Mode (Esc Esc to exit),DISPLAY,Visual Studio Code for Windows
+F9, Toggle breakpoint,DEBUG,Visual Studio Code for Windows
+F5, Start/Continue,DEBUG,Visual Studio Code for Windows
+Shift+F5, Stop,DEBUG,Visual Studio Code for Windows
+F11 / Shift+F11, Step into/out,DEBUG,Visual Studio Code for Windows
+F10, Step over,DEBUG,Visual Studio Code for Windows
+Ctrl+K Ctrl+I, Show hover,DEBUG,Visual Studio Code for Windows
+Ctrl+`, Show integrated terminal,INTEGRATED TERMINAL,Visual Studio Code for Windows
+Ctrl+Shift+`, Create new terminal,INTEGRATED TERMINAL,Visual Studio Code for Windows
+Ctrl+C, Copy selection,INTEGRATED TERMINAL,Visual Studio Code for Windows
+Ctrl+V, Paste into active terminal,INTEGRATED TERMINAL,Visual Studio Code for Windows
+Ctrl+ up / down, Scroll up/down,INTEGRATED TERMINAL,Visual Studio Code for Windows
+Shift+PgUp / PgDn, Scroll page up/down,INTEGRATED TERMINAL,Visual Studio Code for Windows
+Ctrl+Home / End, Scroll to top/bottom,INTEGRATED TERMINAL,Visual Studio Code for Windows
+Ctrl+Shift+A,Find action by name,EDITING,Pycharm
+Double Shift,Search Everywhere,EDITING,Pycharm
+Alt+Enter,Show the list of available intention actions,EDITING,Pycharm
+Alt+F1,Switch between views,EDITING,Pycharm
+Ctrl+Tab,Switch between the tool windows and files opened in the editor,EDITING,Pycharm
+Alt+Home,Show the Navigation bar,EDITING,Pycharm
+Ctrl+J,Insert a live template,EDITING,Pycharm
+Ctrl+Alt+J,Surround with a live template,EDITING,Pycharm
+F4,Edit an item from the Project or another tree view,EDITING,Pycharm
+Ctrl+Slash,Comment or uncomment a line or fragment of codewith a line or block comment,EDITING,Pycharm
+Ctrl+Shift+Slash,Comment or uncomment a line or fragment of codewith a line or block comment,EDITING,Pycharm
+Ctrl+N,Find class or file by name,EDITING,Pycharm
+Ctrl+Shift+N,Find class or file by name,EDITING,Pycharm
+Ctrl+D,Duplicate the current line or selection,EDITING,Pycharm
+Ctrl+W and Ctrl+Shift+W,Incremental expression selection,EDITING,Pycharm
+Ctrl+F,Find text string in the current file,EDITING,Pycharm
+Ctrl+Shift+F,Find text in the project or in the specified directory,EDITING,Pycharm
+Ctrl+Shift+F7,Quickly view the usages of the selected symbol,EDITING,Pycharm
+Ctrl+NumPad Plus,Expand or collapse a code block in the editor,EDITING,Pycharm
+Ctrl+NumPad Minus,Expand or collapse a code block in the editor,EDITING,Pycharm
+Ctrl+Space,Invoke code completion,EDITING,Pycharm
+# Content,<h1>Content</h1>,Headers,Markdown
+## Content,<h2>Content</h2>,Headers,Markdown
+### Content,<h3>Content</h3>,Headers,Markdown
+#### Content,<h4>Content</h4>,Headers,Markdown
+##### Content,<h5>Content</h5>,Headers,Markdown
+##### Content,<h6>Content</h6>,Headers,Markdown
+"- First item<br>- Second item<br>- N item<br>",<ul><li>First item</li><li>Second item</li><li>N item</li></ul>,Lists,Markdown
+"- First item<br>- Second item<br>- N item<br>",<ul><li>First item</li><li>Second item</li><li>N item</li></ul>,Lists,Markdown
+"- First item<br>&emsp;- Indented item<br>",<ul><li>First item</li><ul><li>Indented item</li></ul><li>N item</li></ul>,Lists,Markdown
+"- Second item<br>",<ul><li>First item</li><ul><li>Indented item</li></ul><li>N item</li></ul>,Lists,Markdown
+"*Italic text*",<em>Italic text</em>,Emphasis,Markdown
+"_Italic text_",<em>Italic text</em>,Emphasis,Markdown
+"**Strong**",<strong>Strong</strong>,Emphasis,Markdown
+"__Strong__",<strong>Strong</strong>,Emphasis,Markdown
+"*Super*Emphasis*",<em>Super</em>Emphasis,Emphasis,Markdown
+"**Super**Strong",<strong>Super</strong>Strong,Emphasis,Markdown
+"* * * or ***",<hr/>,Horizontal Rules,Markdown
+"[Google](https://google.com/)",<a href="https://google.com/">Cheat Sheets</a>,Links,Markdown
+"[Google](https://google.com/ \"Search\")",<a href="https://google.com/" title="Search">Cheat Sheets</a>,Links,Markdown
 $ git ini2 [project name],From scratch --Create a new local repository,CREATE A REPOSITORY,Git/GitHub
 $ git clone my_url,Download from an existing repository,CREATE A REPOSITORY,Git/GitHub
 $ git status,List new or modified files not yes commited,OBSERVE YOUR REPOSITORY,Git/GitHub
