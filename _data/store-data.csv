@@ -171,6 +171,7 @@ docker-compose down,Stop & remove,GENERAL,Docker Compose
 docker-compose build,Build services,GENERAL,Docker Compose
 docker-compose logs,Show services logs,GENERAL,Docker Compose
 # -------------------- Linux --------------------,,,
+cat /etc/os-release, Distro Information,Linux
 ls,List files,Navigation,Linux
 cd directory,Change directory,Navigation,Linux
 pwd,Print working dir,Navigation,Linux
