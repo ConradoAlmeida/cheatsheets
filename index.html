@@ -1,36 +1,59 @@
 ---
 layout: default
 ---
-{% assign dados = site.data.store-data | group_by:"grupo"%}
 
+{% assign langs = site.data.lang-data %}
 
-
-
-<div class="col-md-12">
-
- {% for dado in dados %}
-
-      <article class="blog-post">
-        <h2 class="blog-post-title">{{dado.name}}</h2>
-        <p class="blog-post-meta">November 1, 2021 by <a href="#">Conrado</a></p>
-
-        <p>Showing first 10 itens.</p>
-        <hr>
-        {% for item in dado.items %}
-        {% if forloop.index < 10 %}
-                                
-                                <p> #{{forloop.index}}: COMMAND: <strong>{{item.comandos}}</strong> // DESCRIPTION: {{item.descricao}}</p>
-        {% endif %}
+<div class="container py-3">
+  <div class="text-center mb-4">
+    <h1 class="display-6 fw-bold">Cheat Sheets</h1>
+    <p class="lead">Selecione uma tecnologia para ver os comandos.</p>
+  </div>
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+    {% for lang in langs %}
+      <div class="col">
+        <a href="{{ lang.page }}" class="text-decoration-none text-reset">
+          <div class="card h-100 shadow-sm border-0 bg-dark text-light">
+            <div class="card-body d-flex flex-column justify-content-between">
+              <div>
+                <h5 class="card-title mb-2">{{ lang['lang-name'] }}</h5>
+                <p class="card-text small mb-3">{{ lang.description | strip_html | truncate: 120 }}</p>
+              </div>
+              {% if lang.children %}
+                <div class="mt-auto">
+                  <span class="badge bg-secondary">{{ lang.children | size }} sub-itens</span>
+                </div>
+              {% endif %}
+            </div>
+          </div>
+        </a>
+      </div>
+      {% if lang.children %}
+        {% for child in lang.children %}
+          <div class="col">
+            <a href="{{ child.page }}" class="text-decoration-none text-reset">
+              <div class="card h-100 border-0 bg-light">
+                <div class="card-body d-flex flex-column justify-content-between">
+                  <div>
+                    <h6 class="card-subtitle mb-1 text-primary">{{ lang['lang-name'] }}</h6>
+                    <h5 class="card-title mb-2">{{ child['lang-name'] }}</h5>
+                    <p class="card-text small mb-3">{{ child.description | strip_html | truncate: 110 }}</p>
+                  </div>
+                  <div class="mt-auto">
+                    <span class="badge bg-primary">Sub-item</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
         {% endfor %}
-      </article>
-{% endfor %}
-      
+      {% endif %}
+    {% endfor %}
+  </div>
+  <div class="text-center mt-5">
+    <a class="github-button" href="https://github.com/ConradoAlmeida/cheatsheets/" aria-label="ConradoAlmeida/cheatsheets on GitHub">GitHub</a>
+  </div>
 </div>
-
-<!-- Place this tag where you want the button to render. -->
-<!-- Place this tag where you want the button to render. -->
-<!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/ConradoAlmeida/cheatsheets/" aria-label="ConradoAlmeida/cheatsheets on GitHub">GitHub</a>
 
 
 
