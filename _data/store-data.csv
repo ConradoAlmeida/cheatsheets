@@ -104,8 +104,6 @@ Ctrl+F4 / Ctrl+W,Close editor,FILE MANAGEMENT,Visual Studio Code for Windows
 Ctrl+K Ctrl+W,Close All,FILE MANAGEMENT,Visual Studio Code for Windows
 Ctrl+Shift+T,Reopen closed editor,FILE MANAGEMENT,Visual Studio Code for Windows
 Ctrl+K Enter,Keep preview open,FILE MANAGEMENT,Visual Studio Code for Windows
-Ctrl+Tab,Open next editor,FILE MANAGEMENT,Visual Studio Code for Windows
-Ctrl+Shift+Tab,Open previous editor,FILE MANAGEMENT,Visual Studio Code for Windows
 Ctrl+K P,Copy active file path,FILE MANAGEMENT,Visual Studio Code for Windows
 Ctrl+K R,Reveal active file,FILE MANAGEMENT,Visual Studio Code for Windows
 Ctrl+K O,Open active file in new window,FILE MANAGEMENT,Visual Studio Code for Windows
@@ -132,7 +130,7 @@ F11 / Shift+F11,Step into / out,DEBUG,Visual Studio Code for Windows
 Ctrl+K Ctrl+I,Show hover,DEBUG,Visual Studio Code for Windows
 Ctrl+`,Toggle terminal,INTEGRATED TERMINAL,Visual Studio Code for Windows
 Ctrl+Shift+`,New terminal,INTEGRATED TERMINAL,Visual Studio Code for Windows
-Ctrl+C,Copy selection,INTEGRATED TERMINAL,Visual Studio Code for Windows
+Ctrl+Shift+C,Copy selection,INTEGRATED TERMINAL,Visual Studio Code for Windows
 Ctrl+V,Paste selection,INTEGRATED TERMINAL,Visual Studio Code for Windows
 Ctrl+Up / Ctrl+Down,Scroll line,INTEGRATED TERMINAL,Visual Studio Code for Windows
 Shift+PgUp / Shift+PgDn,Scroll page,INTEGRATED TERMINAL,Visual Studio Code for Windows
@@ -211,7 +209,7 @@ df.head(),Show first rows,Inspect,Pandas
 df.info(),DataFrame info,Inspect,Pandas
 df.describe(),Summary stats,Inspect,Pandas
 df['col'],Select column,Select,Pandas
-df[['col1','col2']],Select columns,Select,Pandas
+"df[['col1','col2']]",Select columns,Select,Pandas
 df[df['col']>0],Filter rows,Select,Pandas
 df.to_csv('file.csv'),Write CSV,IO,Pandas
 # -------------------- Markdown --------------------,,,
@@ -221,7 +219,7 @@ df.to_csv('file.csv'),Write CSV,IO,Pandas
 "- item 1\n  - sub","Nested list",Lists,Markdown
 *italic*,"<em>italic</em>",Emphasis,Markdown
 **bold**,"<strong>bold</strong>",Emphasis,Markdown
-***,"<hr/>",Horizontal Rule,Markdown
+***,"<hr/>",HorizontalRule,Markdown
 [Google](https://google.com/),<a href='https://google.com/'>Google</a>,Links,Markdown
 [Google](https://google.com/ 'Search'),<a href='https://google.com/' title='Search'>Google</a>,Links,Markdown
 # -------------------- Windows --------------------,,,
