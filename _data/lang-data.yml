@@ -39,7 +39,7 @@
 - lang-name: Windows
   lang-alias: win
   page: windows-cheat.html
-  description: Windows winget e utilitários administrativos.
+  description: Windows winget and administrative utilities.
   author: <a class="text-primary">Conrado Almeida</a>
 - lang-name: Linux Essentials
   lang-alias: linux

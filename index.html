@@ -7,7 +7,7 @@ layout: default
 <div class="container py-3">
   <div class="text-center mb-4">
     <h1 class="display-6 fw-bold">Cheat Sheets</h1>
-    <p class="lead">Selecione uma tecnologia para ver os comandos.</p>
+  <p class="lead">Select a technology to view its cheat sheet.</p>
   </div>
   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
     {% for lang in langs %}
@@ -21,7 +21,7 @@ layout: default
               </div>
               {% if lang.children %}
                 <div class="mt-auto">
-                  <span class="badge bg-secondary">{{ lang.children | size }} sub-itens</span>
+                  <span class="badge bg-secondary">{{ lang.children | size }} sub-items</span>
                 </div>
               {% endif %}
             </div>
@@ -40,7 +40,7 @@ layout: default
                     <p class="card-text small mb-3">{{ child.description | strip_html | truncate: 110 }}</p>
                   </div>
                   <div class="mt-auto">
-                    <span class="badge bg-primary">Sub-item</span>
+                    <span class="badge bg-primary">Child</span>
                   </div>
                 </div>
               </div>

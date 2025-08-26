@@ -225,28 +225,28 @@ df.to_csv('file.csv'),Write CSV,IO,Pandas
 [Google](https://google.com/),<a href='https://google.com/'>Google</a>,Links,Markdown
 [Google](https://google.com/ 'Search'),<a href='https://google.com/' title='Search'>Google</a>,Links,Markdown
 # -------------------- Windows --------------------,,,
-winget search nome,Pesquisar pacote,Winget,Windows
-winget install pacote,Instalar pacote,Winget,Windows
-winget upgrade --all,Atualizar todos os pacotes,Winget,Windows
-winget list,Listar pacotes instalados,Winget,Windows
-winget uninstall pacote,Desinstalar pacote,Winget,Windows
-winget export -o packages.json,Exportar lista de pacotes,Winget,Windows
-winget import -i packages.json,Importar lista de pacotes,Winget,Windows
-winver,Versão do Windows,Sistema,Windows
-msinfo32,Informações do sistema,Sistema,Windows
-control,Abrir Painel de Controle,Sistema,Windows
-devmgmt.msc,Gerenciador de Dispositivos,Sistema,Windows
-diskmgmt.msc,Gerenciamento de Disco,Sistema,Windows
-compmgmt.msc,Gerenciamento do Computador,Sistema,Windows
-services.msc,Serviços,Sistema,Windows
-eventvwr.msc,Visualizador de Eventos,Sistema,Windows
-taskschd.msc,Agendador de Tarefas,Sistema,Windows
-lusrmgr.msc,Gerenciamento de usuários locais (Pro),Sistema,Windows
-gpedit.msc,Editor de Política de Grupo (Pro),Sistema,Windows
-perfmon,Monitor de Desempenho,Sistema,Windows
-resmon,Monitor de Recursos,Sistema,Windows
-cmd,Prompt de Comando,Sistema,Windows
-powershell,PowerShell,Sistema,Windows
-wt,Windows Terminal,Sistema,Windows
-Shift+F10,Entrar no CMD durante instalação,Instalação,Windows
-OOBE\\BYPASSNRO,Criar opção para instalar sem conta Microsoft,Instalação,Windows
+winget search nome,Search package,Winget,Windows
+winget install pacote,Install package,Winget,Windows
+winget upgrade --all,Upgrade all packages,Winget,Windows
+winget list,List installed packages,Winget,Windows
+winget uninstall pacote,Uninstall package,Winget,Windows
+winget export -o packages.json,Export package list,Winget,Windows
+winget import -i packages.json,Import package list,Winget,Windows
+winver,Windows version,System,Windows
+msinfo32,System information,System,Windows
+control,Open Control Panel,System,Windows
+devmgmt.msc,Device Manager,System,Windows
+diskmgmt.msc,Disk Management,System,Windows
+compmgmt.msc,Computer Management,System,Windows
+services.msc,Services,System,Windows
+eventvwr.msc,Event Viewer,System,Windows
+taskschd.msc,Task Scheduler,System,Windows
+lusrmgr.msc,Local Users and Groups (Pro),System,Windows
+gpedit.msc,Group Policy Editor (Pro),System,Windows
+perfmon,Performance Monitor,System,Windows
+resmon,Resource Monitor,System,Windows
+cmd,Command Prompt,System,Windows
+powershell,PowerShell,System,Windows
+wt,Windows Terminal,System,Windows
+Shift+F10,Open CMD during setup,Setup,Windows
+OOBE\\BYPASSNRO,Enable local account option (run after Shift+F10),Setup,Windows
