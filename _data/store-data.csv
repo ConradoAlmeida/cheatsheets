@@ -213,3 +213,37 @@ df['col'],Select column,Select,Pandas
 df[['col1','col2']],Select columns,Select,Pandas
 df[df['col']>0],Filter rows,Select,Pandas
 df.to_csv('file.csv'),Write CSV,IO,Pandas
+# -------------------- Markdown --------------------,,,
+# Heading 1,"<h1>Heading 1</h1>",Headers,Markdown
+## Heading 2,"<h2>Heading 2</h2>",Headers,Markdown
+"- item 1\n- item 2","<ul><li>item 1</li><li>item 2</li></ul>",Lists,Markdown
+"- item 1\n  - sub","Nested list",Lists,Markdown
+*italic*,"<em>italic</em>",Emphasis,Markdown
+**bold**,"<strong>bold</strong>",Emphasis,Markdown
+***,"<hr/>",Horizontal Rule,Markdown
+[Google](https://google.com/),<a href='https://google.com/'>Google</a>,Links,Markdown
+[Google](https://google.com/ 'Search'),<a href='https://google.com/' title='Search'>Google</a>,Links,Markdown
+# -------------------- Windows --------------------,,,
+winget search nome,Pesquisar pacote,Winget,Windows
+winget install pacote,Instalar pacote,Winget,Windows
+winget upgrade --all,Atualizar todos os pacotes,Winget,Windows
+winget list,Listar pacotes instalados,Winget,Windows
+winget uninstall pacote,Desinstalar pacote,Winget,Windows
+winget export -o packages.json,Exportar lista de pacotes,Winget,Windows
+winget import -i packages.json,Importar lista de pacotes,Winget,Windows
+winver,Versão do Windows,Sistema,Windows
+msinfo32,Informações do sistema,Sistema,Windows
+control,Abrir Painel de Controle,Sistema,Windows
+devmgmt.msc,Gerenciador de Dispositivos,Sistema,Windows
+diskmgmt.msc,Gerenciamento de Disco,Sistema,Windows
+compmgmt.msc,Gerenciamento do Computador,Sistema,Windows
+services.msc,Serviços,Sistema,Windows
+eventvwr.msc,Visualizador de Eventos,Sistema,Windows
+taskschd.msc,Agendador de Tarefas,Sistema,Windows
+lusrmgr.msc,Gerenciamento de usuários locais (Pro),Sistema,Windows
+gpedit.msc,Editor de Política de Grupo (Pro),Sistema,Windows
+perfmon,Monitor de Desempenho,Sistema,Windows
+resmon,Monitor de Recursos,Sistema,Windows
+cmd,Prompt de Comando,Sistema,Windows
+powershell,PowerShell,Sistema,Windows
+wt,Windows Terminal,Sistema,Windows

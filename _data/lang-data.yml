@@ -36,6 +36,11 @@
       page: docker-compose-cheat.html
       description: Docker Compose for defining and running multi-container Docker applications.
       author: <a class="text-primary">Conrado Almeida</a>
+- lang-name: Windows
+  lang-alias: win
+  page: windows-cheat.html
+  description: Windows winget e utilitários administrativos.
+  author: <a class="text-primary">Conrado Almeida</a>
 - lang-name: Linux Essentials
   lang-alias: linux
   page: linux-cheat.html
