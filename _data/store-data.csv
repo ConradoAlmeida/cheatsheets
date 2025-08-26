@@ -248,3 +248,4 @@ resmon,Monitor de Recursos,Sistema,Windows
 cmd,Prompt de Comando,Sistema,Windows
 powershell,PowerShell,Sistema,Windows
 wt,Windows Terminal,Sistema,Windows
+OOBE\\BYPASSNRO,Criar opção para instalar sem conta Microsoft (na tela de rede, usar Shift+F10 e rodar este comando),Instalação,Windows
