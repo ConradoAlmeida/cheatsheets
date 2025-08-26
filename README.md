@@ -14,7 +14,7 @@
 2. [Data Model](#data-model)
 3. [Pages & Navigation](#pages--navigation)
 4. [Adding Commands](#adding-commands)
-5. [Adding a New Cheat Sheet](#adding-commands)
+5. [Adding a New Cheat Sheet](#adding-a-new-cheat-sheet)
 6. [CSV Validation Workflow](#csv-validation-workflow)
 7. [Roadmap](#roadmap)
 8. [Development](#development)
@@ -64,12 +64,39 @@ If `children` is present, the home page shows a badge with the number of child i
 
 Example:
 
-```liquid
-    {% endfor %}
-    </tbody>
-  </table>
-{% endfor %}
+```text
+docker compose ps,List services status,GENERAL,Docker Compose
 ```
+
+More detailed environment setup and local testing instructions: see [howtotest.markdown](howtotest.markdown).
+
+## Adding a New Cheat Sheet
+
+Follow these steps to introduce a brand‑new cheat sheet (e.g. for Poetry or Excel):
+
+1. Pick a unique Group name (column `grupo`) you will use in the CSV. Keep consistent casing (e.g. `Poetry`).
+2. Add entries to `_data/store-data.csv` under an appropriate separator. Each line: `command,Description,Category,Poetry`.
+3. Create a page file named using the pattern `<alias>-cheat.html` (you can duplicate an existing `*-cheat.html` file and adjust the introductory text plus the `where: "grupo"` filter value if present).
+4. Update `_data/lang-data.yml`.
+
+   - If it is a top‑level item: add a new mapping with `lang-name`, optional `lang-alias`, and `page`.
+   - If it is a child: locate the parent and append to its `children` list.
+
+5. Run the validator locally:
+
+   ```bash
+   python scripts/validate_csv.py
+   ```
+
+6. Serve locally with Jekyll and confirm.
+
+   - It appears on the home page (card or child card).
+   - Navbar dropdown (if child) contains the new item.
+   - Tables render (no blank or malformed rows).
+
+7. Commit changes (CSV, YAML, new page) and open a Pull Request.
+
+Tip: Avoid creating duplicate `grupo` values differing only by case; treat them as case‑sensitive keys.
 
 ## CSV Validation Workflow
 
