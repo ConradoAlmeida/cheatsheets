@@ -1,90 +1,143 @@
-# ATENÇÃO: CONTEÚDO DO README EM DESENVOLVIMENTO
 # Cheat Sheets
 
-<!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
+> Lightweight data‑driven collection of technology cheat sheets (Git, VS Code, Python ecosystem, Docker, Linux distros, Markdown, Windows) built with Jekyll + Liquid using a single CSV as the command source and a YAML file for hierarchical navigation.
 
-### adicionar tema aqui
-![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/iuricode/README-template?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
+![Repo Size](https://img.shields.io/github/repo-size/ConradoAlmeida/cheatsheets?label=size)
+![Last Commit](https://img.shields.io/github/last-commit/ConradoAlmeida/cheatsheets)
+![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
-<img src="GitHub-Logo.png" alt="exemplo imagem">
+![GitHub Logo](GitHub-Logo.png)
 
-> Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
+## Table of Contents
 
-### Ajustes e melhorias
+1. [Overview](#overview)
+2. [Data Model](#data-model)
+3. [Pages & Navigation](#pages--navigation)
+4. [Adding Commands](#adding-commands)
+5. [Adding a New Cheat Sheet](#adding-commands)
+6. [CSV Validation Workflow](#csv-validation-workflow)
+7. [Roadmap](#roadmap)
+8. [Development](#development)
+9. [Contributing](#contributing)
+10. [License](#license)
 
-O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
+## Overview
 
-- [ ] Criar template para inserir novas linguagens
-- [ ] Criar variável que configure a cor dos cards
-- [ ] Criar para comandos Linux
-- [ ] Criar sub-níveis para:
- 1. Python
-    * [ ] Pandas
-    * [ ] Pyinstaller
-    * [ ] Plotly
-    * [ ] PyQt5 ou 6
- 2. Excel
-    * [ ] Excel Shortcuts
-    * [ ] VBA
-    * [ ] teste
- 3. Linux
-    * [ ] Universal
-    * [ ] Debian based
-    * [ ] Arch based
-    * [ ] Fedora based
+The site renders cheat sheets from a central CSV file (`_data/store-data.csv`) and a hierarchical navigation definition (`_data/lang-data.yml`). Each top‑level or child entry in the YAML maps to an HTML page (e.g. `git-cheat.html`, `pandas-cheat.html`). Pages reuse the same Liquid loop pattern: filter rows by the `grupo` column and group them by `categoria`.
 
-   
+## Data Model
 
-- [ ] Adicionar versão da aplicação/linguagem (referente ao conteúdo postado)
-- [ ] Programar configuração para texto sem tabela (bloco de texto)
-- [ ] Programar construir o menu automaticamente (de acordo com os itens existentes nos dados)
+`_data/store-data.csv` columns (must be exactly 4):
 
-## 💻 Pré-requisitos
+1. comandos  – the raw command / snippet
+2. descricao – short English description
+3. categoria – logical sub‑section displayed as a table group
+4. grupo     – matches a cheat sheet's group name (e.g. `Git/GitHub`, `Docker Compose`)
 
-Antes de começar, verifique se você atendeu aos seguintes requisitos:
-<!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
-* Você instalou a versão mais recente de `<linguagem / dependência / requeridos>`
-* Você tem uma máquina `<Windows / Linux / Mac>`. Indique qual sistema operacional é compatível / não compatível.
-* Você leu `<guia / link / documentação_relacionada_ao_projeto>`.
+Separator lines start with `#` (e.g. `# -------------------- Git --------------------`) and are ignored by the build but useful for human scanning. No blank lines are allowed. All non‑comment lines must have exactly three commas (4 columns).
 
+## Pages & Navigation
 
+Navigation lives in `_data/lang-data.yml`. Example excerpt:
+
+```yml
+- lang-name: Python
+  lang-alias: py
+  page: py-cheat.html
+  children:
+    - lang-name: Pandas
+      page: pandas-cheat.html
+    - lang-name: Pipenv
+      page: pipenv-cheat.html
 ```
 
-## ☕ Usando <nome_do_projeto>
+If `children` is present, the home page shows a badge with the number of child items and renders extra cards for each child.
 
-Para usar <nome_do_projeto>, siga estas etapas:
+## Adding Commands
 
+1. Open `_data/store-data.csv`.
+2. Locate the correct section or add a new `# -------------------- NAME --------------------` separator.
+3. Append a new line: `command,Description,Category,GroupName`
+4. Ensure there are EXACTLY 4 columns (3 commas). Do not leave trailing commas.
+5. Avoid raw double quotes inside fields; prefer single quotes or escape properly.
+6. Keep descriptions short (<= 60 chars ideal).
+
+Example:
+
+```liquid
+    {% endfor %}
+    </tbody>
+  </table>
+{% endfor %}
 ```
-<exemplo_de_uso>
+
+## CSV Validation Workflow
+
+Automated safety net: `.github/workflows/csv-validate.yml` runs `scripts/validate_csv.py` on every push / pull request to `main`.
+
+The script enforces:
+
+- Header matches: `comandos,descricao,categoria,grupo`
+- No blank lines
+- Exactly 4 columns for non‑comment lines
+- No unbalanced double quotes
+- Warns about duplicate (command + group) pairs
+
+Run locally (PowerShell / Bash):
+
+```bash
+python scripts/validate_csv.py
 ```
 
-Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Fornece uma referência de opções para pontos de bônus!
+If it exits with code 1 fix the reported errors before pushing.
 
-## 📫 Contribuindo para <nome_do_projeto>
-<!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
-Para contribuir com <nome_do_projeto>, siga estas etapas:
+## Roadmap
 
-1. Bifurque este repositório.
-2. Crie um branch: `git checkout -b <nome_branch>`.
-3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
-4. Envie para o branch original: `git push origin <nome_do_projeto> / <local>`
-5. Crie a solicitação de pull.
+Completed:
 
+- [x] Hierarchical navigation (Python → Pandas / Pipenv; Docker → Docker Compose; Linux distros)
+- [x] Remove legacy PyCharm content
+- [x] Windows (winget + system + setup) section
+- [x] Home page card layout
+- [x] English translation of data & pages
+- [x] CSV structural validator & GitHub Action
 
+Planned / Ideas:
 
+- [ ] Theming variable for card color palette
+- [ ] Optional non‑table (freeform) content blocks
+- [ ] Auto‑generate menu from CSV groups (reduce duplication with YAML)
+- [ ] Additional Python tools (e.g. Poetry, PyInstaller, Plotly examples)
+- [ ] Excel / VBA cheat sheets
+- [ ] Normalize category naming style
 
+## Development
 
+Local Jekyll build (optional if you just rely on GitHub Pages):
 
-## 😄 Seja um dos contribuidores<br>
+1. Create a `Gemfile` with `github-pages` gem (not yet included in repo).
+2. Run `bundle install`.
+3. Serve: `bundle exec jekyll serve`.
 
-Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
+> For now the repository relies on GitHub Pages’ built-in build environment.
 
-## 📝 Licença
+## Contributing
 
-Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
+1. Fork the repo
+2. Create a feature branch: `git checkout -b feat/your-feature`
+3. Make changes (ensure CSV passes validation)
+4. Commit: `git commit -m "feat: add X"`
+5. Push: `git push origin feat/your-feature`
+6. Open a Pull Request
 
-[⬆ Voltar ao topo](#nome-do-projeto)<br>
+Please keep commands concise and in English.
+
+## License
+
+MIT License. See [LICENSE](LICENSE.md).
+
+---
+
+Made with simple data + Liquid. PRs welcome.
+
+[Back to top](#cheat-sheets)
