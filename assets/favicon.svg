@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="138.99423mm"
-   height="133.19704mm"
-   viewBox="0 0 138.99423 133.19704"
+   width="114.58809mm"
+   height="114.89242mm"
+   viewBox="0 0 114.58808 114.89242"
    version="1.1"
    id="svg1"
    inkscape:export-filename="favicon.png"
@@ -26,9 +26,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="3.924805"
-     inkscape:cx="329.06094"
-     inkscape:cy="192.74843"
+     inkscape:zoom="1.3876281"
+     inkscape:cx="363.93036"
+     inkscape:cy="328.25798"
      inkscape:window-width="2560"
      inkscape:window-height="1494"
      inkscape:window-x="2869"
@@ -40,36 +40,25 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-11.059039,-8.7709619)">
     <circle
-       style="opacity:1;fill:none;stroke-width:3;stroke:#000000"
+       style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:3"
        id="path1"
        cx="68.434875"
        cy="66.231247"
        r="55.457954" />
     <text
        xml:space="preserve"
-       style="font-weight:bold;font-size:73.4781px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;opacity:1;fill:#1a1a1a;stroke:#1a1a1a;stroke-width:8.67855"
-       x="-43.852001"
-       y="118.58338"
+       style="font-weight:bold;font-size:95.9015px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;opacity:1;fill:#1a1a1a;stroke:#1a1a1a;stroke-width:11.3269"
+       x="-31.181465"
+       y="124.13123"
        id="text3"
-       transform="matrix(0.71114248,-0.62059884,0.6966238,0.79825927,0,0)"><tspan
+       transform="matrix(0.71066592,-0.621015,0.69615697,0.79879456,0,0)"><tspan
          sodipodi:role="line"
          id="tspan3"
-         style="stroke-width:8.67855"
-         x="-43.852001"
-         y="118.58338">C</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:bold;font-size:69.1796px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;opacity:1;fill:#1a1a1a;stroke:#1a1a1a;stroke-width:8.17082"
-       x="1.20705"
-       y="102.93601"
-       id="text4"
-       transform="matrix(0.31486789,-0.70884528,1.0177474,0.8847347,0,0)"><tspan
-         sodipodi:role="line"
-         id="tspan4"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:8.17082"
-         x="1.20705"
-         y="102.93601">S</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:11.3269"
+         x="-31.181465"
+         y="124.13123">C</tspan></text>
   </g>
 </svg>
