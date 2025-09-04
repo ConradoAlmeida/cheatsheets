@@ -186,7 +186,7 @@ grep -r 'text' directory,Recursive search,Files,Linux
 grep -E 'regex' file,Extended regex,Files,Linux
 grep -v 'text' file,Invert match,Files,Linux
 grep -A 3 -B 2 'text' file,Context lines (after 3 / before 2),Files,Linux
-find /path -name "pattern",Find files by name,Files,Linux
+find /path -name 'pattern',Find files by name,Files,Linux
 find /path -type f -size +10M,Find large files (>10MB),Files,Linux
 locate filename,Search indexed database,Files,Linux
 which command,Executable path,Files,Linux
