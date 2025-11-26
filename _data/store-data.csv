@@ -24,11 +24,13 @@ git add .,Stage all changes,MAKE A CHANGE,Git/GitHub
 git commit -am 'message',Commit tracked changes,MAKE A CHANGE,Git/GitHub
 git reset [file],Unstage file (keep changes),MAKE A CHANGE,Git/GitHub
 git reset --hard,Discard all local changes,MAKE A CHANGE,Git/GitHub
+git reset --hard upstream/main,Reset current branch to upstream main,SYNCHRONIZE,Git/GitHub
 git commit -m 'message',Commit staged changes,MAKE A CHANGE,Git/GitHub
 git fetch,Update remote refs (no merge),SYNCHRONIZE,Git/GitHub
 git pull,Fetch then merge,SYNCHRONIZE,Git/GitHub
 git pull --rebase,Fetch then rebase,SYNCHRONIZE,Git/GitHub
 git push,Push current branch,SYNCHRONIZE,Git/GitHub
+
 # -------------------- VS Code --------------------,,,
 Ctrl+Shift+P or F1,Show Command Palette,GENERAL,Visual Studio Code for Windows
 Ctrl+P,Quick Open file,GENERAL,Visual Studio Code for Windows
