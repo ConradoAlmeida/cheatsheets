@@ -137,6 +137,7 @@ Planned / Ideas:
 - [ ] Additional Python tools (e.g. Poetry, PyInstaller, Plotly examples)
 - [ ] Excel / VBA cheat sheets
 - [ ] Normalize category naming style
+- [ ]Rubens - Print friendly version of cheat sheets
 
 ## Development
 
@@ -158,6 +159,7 @@ Local Jekyll build (optional if you just rely on GitHub Pages):
 6. Open a Pull Request
 
 Please keep commands concise and in English.
+
 
 ## License
 
