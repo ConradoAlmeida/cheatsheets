@@ -196,6 +196,26 @@ sudo command,Run as superuser,Permissions,Linux
 top,Live processes,System,Linux
 ps aux,List processes,System,Linux
 kill pid,Kill process,System,Linux
+flatpak search app,Search for applications,Flatpak,Linux
+flatpak install app-id,Install application,Flatpak,Linux
+flatpak install flathub app-id,Install from Flathub,Flatpak,Linux
+flatpak uninstall app-id,Uninstall application,Flatpak,Linux
+flatpak uninstall --unused,Remove unused runtimes,Flatpak,Linux
+flatpak update,Update all applications,Flatpak,Linux
+flatpak update app-id,Update specific app,Flatpak,Linux
+flatpak list,List installed apps,Flatpak,Linux
+flatpak list --app,List only applications,Flatpak,Linux
+flatpak list --runtime,List only runtimes,Flatpak,Linux
+flatpak run app-id,Run application,Flatpak,Linux
+flatpak info app-id,Show app information,Flatpak,Linux
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo,Add Flathub repository,Flatpak,Linux
+flatpak remote-list,List repositories,Flatpak,Linux
+flatpak remote-delete remote-name,Remove repository,Flatpak,Linux
+flatpak repair,Repair installation,Flatpak,Linux
+flatpak history,Show installation history,Flatpak,Linux
+flatpak permission-show,Show app permissions,Flatpak,Linux
+flatpak override app-id --filesystem=home,Grant home access,Flatpak,Linux
+flatpak override --reset app-id,Reset app overrides,Flatpak,Linux
 # -------------------- Debian --------------------,,,
 sudo apt update,Update package lists,Debian,Debian
 sudo apt upgrade,Upgrade packages,Debian,Debian
@@ -265,3 +285,31 @@ cmdkey /list,List stored credentials,Security,Windows
 cmdkey /delete:[target],Delete credential for target,Security,Windows
 "rundll32.exe keymgr.dll,KRShowKeyMgr",Open stored credentials UI (legacy),Security,Windows
 klist purge,Clear Kerberos tickets,Security,Windows
+Get-ChildItem,List files and folders,PowerShell File Management,Windows
+Get-ChildItem -Recurse,List files recursively,PowerShell File Management,Windows
+"Get-ChildItem -Filter ""*.txt""",List files with filter,PowerShell File Management,Windows
+Get-ChildItem | Where-Object {$_.Length -gt 1MB},Filter files by size,PowerShell File Management,Windows
+Copy-Item file.txt dest.txt,Copy file,PowerShell File Management,Windows
+Copy-Item -Path source -Destination dest -Recurse,Copy folder recursively,PowerShell File Management,Windows
+Move-Item file.txt newfolder\,Move file,PowerShell File Management,Windows
+Rename-Item old.txt new.txt,Rename file,PowerShell File Management,Windows
+Remove-Item file.txt,Delete file,PowerShell File Management,Windows
+Remove-Item folder -Recurse -Force,Delete folder and contents,PowerShell File Management,Windows
+New-Item -ItemType File file.txt,Create new file,PowerShell File Management,Windows
+New-Item -ItemType Directory folder,Create new folder,PowerShell File Management,Windows
+Test-Path file.txt,Check if file exists,PowerShell File Management,Windows
+Get-Content file.txt,Read file content,PowerShell File Management,Windows
+Set-Content file.txt 'text',Write to file (overwrite),PowerShell File Management,Windows
+Add-Content file.txt 'text',Append to file,PowerShell File Management,Windows
+Select-String -Path *.txt -Pattern 'word',Search text in files,PowerShell File Management,Windows
+Get-ChildItem -Recurse | Select-String 'word',Search in all files recursively,PowerShell File Management,Windows
+Get-FileHash file.txt,Get file hash (SHA256),PowerShell File Management,Windows
+Get-FileHash file.txt -Algorithm MD5,Get file hash (MD5),PowerShell File Management,Windows
+(Get-Item file.txt).Length,Get file size,PowerShell File Management,Windows
+Get-Item file.txt | Select-Object Name | Length | LastWriteTime,Get file properties,PowerShell File Management,Windows
+Compress-Archive -Path folder -DestinationPath backup.zip,Create ZIP archive,PowerShell File Management,Windows
+Expand-Archive -Path backup.zip -DestinationPath folder,Extract ZIP archive,PowerShell File Management,Windows
+Get-Acl file.txt,Get file permissions,PowerShell File Management,Windows
+Set-Acl -Path file.txt -AclObject $acl,Set file permissions,PowerShell File Management,Windows
+Get-ChildItem | Sort-Object Length -Descending,Sort files by size,PowerShell File Management,Windows
+"Get-ChildItem | Where-Object {$_.LastWriteTime -gt (Get-Date).AddDays(-7)}",Find files modified in last 7 days,PowerShell File Management,Windows
