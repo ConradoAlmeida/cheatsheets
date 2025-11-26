@@ -138,6 +138,8 @@ Planned / Ideas:
 - [ ] Excel / VBA cheat sheets
 - [ ] Normalize category naming style
 - [ ] Rubens - Print friendly version of cheat sheets
+- [ ] Rubens - @ConradoAlmeida olha isso
+
 
 ## Development
 
