@@ -139,6 +139,7 @@ Planned / Ideas:
 - [ ] Normalize category naming style
 - [ ] Rubens - Print friendly version of cheat sheets
 - [ ] Rubens - @ConradoAlmeida olha isso
+- [ ] Rubens - @ConradoAlmeida olha isso 2
 
 
 ## Development
