@@ -137,7 +137,7 @@ Planned / Ideas:
 - [ ] Additional Python tools (e.g. Poetry, PyInstaller, Plotly examples)
 - [ ] Excel / VBA cheat sheets
 - [ ] Normalize category naming style
-- [ ]Rubens - Print friendly version of cheat sheets
+- [ ] Rubens - Print friendly version of cheat sheets
 
 ## Development
 
